@@ -1,0 +1,85 @@
+
+
+/*Slider*/
+
+.article{
+    
+    margin:auto;
+    width:100%;
+  }
+  
+  .cont-article {
+      align-items: center;
+      text-align: center;
+      margin: auto;
+      /*background-color: rgba(22, 65, 5, 0.575);*/
+      background-color: rgba(16, 51, 0, 0.658);
+      /*background: url("../imagenes/rojo-d.jpg");*/
+      width: 75%;
+      padding: 90px;
+      padding-bottom: 20px;
+    }
+    
+    .cont-article > ul{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    
+    .cont-article > ul.slider {
+      position: relative;
+      width: 820px;
+      height: 350px;
+    }
+    
+    .cont-article > ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity 0.5s;
+      background-color: rgba(201, 181, 0, 0.281);
+    }
+    
+    .cont-article > ul.slider li img {
+      width: 103%;
+      height: 350px;
+      object-fit: cover;
+    }
+    
+    .cont-article > ul.slider li:first-child {
+      opacity: 1;
+      /*Mostramos el primer <li>*/
+    }
+    
+    .cont-article > ul.slider li:target {
+      opacity: 1;
+      /*Mostramos el <li> del enlace que pulsemos*/
+    }
+    
+    .cont-article .menu1 {
+      text-align: center;
+      margin: 20px;
+    }
+    
+    .cont-article .menu1 li {
+      display: inline-block;
+      text-align: center;
+    }
+    
+    .cont-article .menu1 li a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      background-color: rgb(255, 255, 255);
+      padding: 10px;
+      width: 20px;
+      height: 20px;
+      font-size: 20px;
+      border-radius: 100%;
+    }
+  
+
+    /*Fin del slider*/
