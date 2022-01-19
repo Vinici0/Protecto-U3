@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "61e62ffe844a8c8d2fe3d49b",
+    "nombre": "Terrell Weber",
+    "edad": 32,
+    "correo": "terrellweber@comtrek.com",
+    "pais": "Bhutan"
+  },
+  {
+    "_id": "61e62ffe59469e8c75ea6174",
+    "nombre": "Barnes Wall",
+    "edad": 24,
+    "correo": "barneswall@comtrek.com",
+    "pais": "Turks and Caicos Islands"
+  },
+  {
+    "_id": "61e62ffe1d5ba195d06e6d79",
+    "nombre": "Bradford Newman",
+    "edad": 32,
+    "correo": "bradfordnewman@comtrek.com",
+    "pais": "Lithuania"
+  },
+  {
+    "_id": "61e62ffe53055a90ea5fde61",
+    "nombre": "Bradley Carver",
+    "edad": 33,
+    "correo": "bradleycarver@comtrek.com",
+    "pais": "France, Metropolitan"
+  },
+  {
+    "_id": "61e62ffec9b20678f4c35e93",
+    "nombre": "Joan Bennett",
+    "edad": 40,
+    "correo": "joanbennett@comtrek.com",
+    "pais": "Slovak Republic"
+  },
+  {
+    "_id": "61e62ffe657eaad633020f01",
+    "nombre": "Jacquelyn Anthony",
+    "edad": 31,
+    "correo": "jacquelynanthony@comtrek.com",
+    "pais": "Barbados"
+  },
+  {
+    "_id": "61e62ffe7eceeff07aa81039",
+    "nombre": "Weber Noble",
+    "edad": 24,
+    "correo": "webernoble@comtrek.com",
+    "pais": "Niger"
+  },
+  {
+    "_id": "61e62ffe68a0e03a23c0f9d7",
+    "nombre": "Maxine Patterson",
+    "edad": 21,
+    "correo": "maxinepatterson@comtrek.com",
+    "pais": "Costa Rica"
+  },
+  {
+    "_id": "61e62ffedd249e442dccdf3c",
+    "nombre": "Norman Griffith",
+    "edad": 27,
+    "correo": "normangriffith@comtrek.com",
+    "pais": "US Minor Outlying Islands"
+  },
+  {
+    "_id": "61e62ffe4ef7967359a6f9a4",
+    "nombre": "Koch Moss",
+    "edad": 40,
+    "correo": "kochmoss@comtrek.com",
+    "pais": "Argentina"
+  }
+]

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="https://kit.fontawesome.com/0ea7a89597.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap"
+        rel="stylesheet" />
+    <!--FUENTES-->
+    <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Potta One' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/paw-solid.svg" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/estilosindex.css" />
+    <link rel="stylesheet" href="estilos/guardar.css" />
+    <link rel="stylesheet" href="estilos/slider.css" />
+
+    <title>Sistema-Académico♥</title>
+</head>
+
+<body>
+    <div class="loader_bg">
+        <div class="loader">
+            <!--SLIDER-->
+
+        </div>
+    </div>
+    <div class="contenedor">
+        <div style="text-align: center;" class="logo"><a href="index.html"><img align="center"
+                    src="imagenes/ESPEtransparente.png" width="350px" height="76px"></a></div>
+        <nav style="background-color:  rgb(13, 95, 2);" class="menu">
+
+            <div id="logo">
+
+            </div>
+            <div id="menu">
+                <a href="index.html"><img align="center" src="imagenes/casa.png" width="35px" height="35px">
+                    INICIO</a>
+                <a href=""><img align="center" src="./imagenes/revision.png" width="45px" height="45px">
+                    MALLA</a>
+                <a href=""><img align="center" src="./imagenes/estudiar.png" width="45px" height="45px">
+                    LISTA ESTUDIANTES</a>
+
+
+                <a href=""><img align="center" src="./imagenes/buscando.png" width="45px" height="45px">
+                </a><input type="search" name="nombre" placeholder="Buscar">
+
+
+            </div>
+        </nav>
+    </div>
+    <br>
+
+    
+    <br>
+
+    <section class="main">
+        <div class="contenedor">
+            <header>
+                <h1>Tabla de Usuarios</h1>
+                <div>
+                    <button  class="btn active" id="cargarCatalogo">Cargar Usuarios</button>
+                </div>
+            </header>
+            <main>
+                <form action="" method="" id="formulario" class="formulario">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                    <input type="text" name="edad" id="edad" placeholder="Edad">
+                    <input type="text" name="pais" id="pais" placeholder="Pais">
+                    <input type="email" name="correo" id="correo" placeholder="Correo">
+                    <button type="submit" class="btn" >Agregar</button>
+                </form>
+                <div class="error_box" id="error_box">
+                    <p>Se ha producido un error.</p>
+                </div>
+                <table class="tabla" >
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Nota 1</th>
+                            <th>Nota 2</th>
+                            <th>Nota 3</th>
+                            <th>Resultado</th>
+                        </tr>
+                    </thead>
+                    <tbody id="muestra">
+    
+                    </tbody>
+                    
+                </table>
+                <div class="loader" id="loader"></div>
+            </main>
+        </div>
+        <script src="js/ajax.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script type="text/javascript" src="../javaScript/javaSc.js"></script>
+
+    </section>
+    <div class="foto">
+     <p style="text-align: center;"><img src="imagenes/logo2.png" width="200" alt="200" alt="soldado" /></p>  
+
+    </div>
+    <footer>
+        <div class="fondofooter">
+
+            <div class="contenedor">
+
+
+                <div class="opcion">
+
+                    <h2>UNIDADES</h2>
+
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px"
+                            height="25px">Biblioteca</a>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px"
+                            height="25px">Bienestar Estudiantil</a>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px"
+                            height="25px">Admisión y Registro</a>
+
+
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px">
+                        Investigación</a>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px">Gestión
+                        de Tecnologías</a>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px">
+                        Vinculación con la Sociedad</a>
+
+                </div>
+                <div class="opcion">
+                    <h2>CENTROS</h2>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px">
+                        Centro CENCINAT</a>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px">Centro
+                        de Educación Continua</a>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px">
+                        Centro de Estudios Estratégicos</a>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px"> Centro
+                        Posgrados </a>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px">
+                        Centro CICTE
+                    </a>
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+                <div class="opcion">
+                    <h2>DEPARTAMENTOS</h2>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px">
+                        Ciencias Exactas </a>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px">
+                        Ciencias de la Computación</a>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px">
+                        Ciencias de la Vida</a>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px">
+                        Ciencias Económicas</a>
+
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px">
+                        Eléctrica y Electrónica </a>
+                    <a href=""><img align="center" src="imagenes/flecha-correcta.png" width="25px" height="25px">
+                        Energía y Mecánica</a>
+                   
+                </div>
+                <div class="opcion">
+                    <h2 style="text-align: center;">SISTEMA ACADEMICO ESPE♥</h2>
+                    <a id="imagen2" href="#"><img src="./imagenes/alumno.png" width="250px" height="250px" alt=""></a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    setTimeout(function () {
+        $('.loader_bg').fadeToggle();
+    }, 1700);
+</script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script type="text/javascript" src="js/javaSc.js"></script>
+
+<script src="JS/index.js"></script>
+</html>
