@@ -6,7 +6,7 @@
     "nota2": 10,
     "nota3": 13,
     "semestre": "Primero",
-    "materia": "Fundamentos Web",
+    "materia": "Estructura de Datos",
     "asistencia": 70
   },
   {
@@ -26,7 +26,7 @@
     "nota2": 7,
     "nota3": 8,
     "semestre": "Primero",
-    "materia": "Fundamentos Web",
+    "materia": "Estructura de Datos",
     "asistencia": 70
 
   },
@@ -57,7 +57,7 @@
     "nota2": 11,
     "nota3": 10,
     "semestre": "Primero",
-    "materia": "Fundamentos Web",
+    "materia": "Estructura de Datos",
     "asistencia": 69
   },
   {
@@ -99,5 +99,776 @@
     "semestre": "Primero",
     "materia": "Fundamentos Web",
     "asistencia": 70
+  },
+
+  
+
+
+
+
+
+
+  {
+    "_id": "3456be235a",
+    "nombre": "Lynette Mcneil",
+    "nota1": 12,
+    "nota2": 10,
+    "nota3": 13,
+    "semestre": "Tercero",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+  },
+  {
+    "_id": "866be23f6",
+    "nombre": "Beth Shaffer",
+    "nota1": 18,
+    "nota2": 0,
+    "nota3": 3,
+    "semestre": "Tercero",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "876be2365",
+    "nombre": "Olivia Dunn",
+    "nota1": 10,
+    "nota2": 7,
+    "nota3": 8,
+    "semestre": "Tercero",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+
+  },
+  {
+    "_id": "6456be2345",
+    "nombre": "Marsh Hobbs",
+    "nota1": 15,
+    "nota2": 13,
+    "nota3": 20,
+    "semestre": "Tercero",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "546be2345b",
+    "nombre": "Therese Logan",
+    "nota1": 13,
+    "nota2": 19,
+    "nota3": 7,
+    "semestre": "Tercero",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61516134",
+    "nombre": "Marilyn Silva",
+    "nota1": 10,
+    "nota2": 11,
+    "nota3": 10,
+    "semestre": "Tercero",
+    "materia": "Estructura de Datos",
+    "asistencia": 69
+  },
+  {
+    "_id": "61546455",
+    "nombre": "Martina House",
+    "nota1": 10,
+    "nota2": 13,
+    "nota3": 9,
+    "semestre": "Tercero",
+    "materia": "Redes de Comunicación",
+    "asistencia": 80
+  },
+  {
+    "_id": "61e6be23",
+    "nombre": "Amber Best",
+    "nota1": 10,
+    "nota2": 0,
+    "nota3": 10,
+    "semestre": "Tercero",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e5156134",
+    "nombre": "Jacobson Holloway",
+    "nota1": 6,
+    "nota2": 5,
+    "nota3": 9,
+    "semestre": "Tercero",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e464634",
+    "nombre": "Witt Coffey",
+    "nota1": 20,
+    "nota2": 20,
+    "nota3": 16,
+    "semestre": "Tercero",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+
+
+
+
+
+
+
+
+  
+  {
+    "_id": "3456be235a",
+    "nombre": "Lynette Mcneil",
+    "nota1": 12,
+    "nota2": 10,
+    "nota3": 13,
+    "semestre": "Quinto",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+  },
+  {
+    "_id": "866be23f6",
+    "nombre": "Beth Shaffer",
+    "nota1": 18,
+    "nota2": 0,
+    "nota3": 3,
+    "semestre": "Quinto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "876be2365",
+    "nombre": "Olivia Dunn",
+    "nota1": 10,
+    "nota2": 7,
+    "nota3": 8,
+    "semestre": "Quinto",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+
+  },
+  {
+    "_id": "6456be2345",
+    "nombre": "Marsh Hobbs",
+    "nota1": 15,
+    "nota2": 13,
+    "nota3": 20,
+    "semestre": "Quinto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "546be2345b",
+    "nombre": "Therese Logan",
+    "nota1": 13,
+    "nota2": 19,
+    "nota3": 7,
+    "semestre": "Quinto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61516134",
+    "nombre": "Marilyn Silva",
+    "nota1": 10,
+    "nota2": 11,
+    "nota3": 10,
+    "semestre": "Quinto",
+    "materia": "Estructura de Datos",
+    "asistencia": 69
+  },
+  {
+    "_id": "61546455",
+    "nombre": "Martina House",
+    "nota1": 10,
+    "nota2": 13,
+    "nota3": 9,
+    "semestre": "Quinto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 80
+  },
+  {
+    "_id": "61e6be23",
+    "nombre": "Amber Best",
+    "nota1": 10,
+    "nota2": 0,
+    "nota3": 10,
+    "semestre": "Quinto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e5156134",
+    "nombre": "Jacobson Holloway",
+    "nota1": 6,
+    "nota2": 5,
+    "nota3": 9,
+    "semestre": "Quinto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e464634",
+    "nombre": "Witt Coffey",
+    "nota1": 20,
+    "nota2": 20,
+    "nota3": 16,
+    "semestre": "Quinto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+
+
+
+
+
+
+  
+
+
+
+  
+  {
+    "_id": "3456be235a",
+    "nombre": "Lynette Mcneil",
+    "nota1": 12,
+    "nota2": 10,
+    "nota3": 13,
+    "semestre": "Segundo",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+  },
+  {
+    "_id": "866be23f6",
+    "nombre": "Beth Shaffer",
+    "nota1": 18,
+    "nota2": 0,
+    "nota3": 3,
+    "semestre": "Segundo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "876be2365",
+    "nombre": "Olivia Dunn",
+    "nota1": 10,
+    "nota2": 7,
+    "nota3": 8,
+    "semestre": "Segundo",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+
+  },
+  {
+    "_id": "6456be2345",
+    "nombre": "Marsh Hobbs",
+    "nota1": 15,
+    "nota2": 13,
+    "nota3": 20,
+    "semestre": "Segundo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "546be2345b",
+    "nombre": "Therese Logan",
+    "nota1": 13,
+    "nota2": 19,
+    "nota3": 7,
+    "semestre": "Segundo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61516134",
+    "nombre": "Marilyn Silva",
+    "nota1": 10,
+    "nota2": 11,
+    "nota3": 10,
+    "semestre": "Segundo",
+    "materia": "Estructura de Datos",
+    "asistencia": 69
+  },
+  {
+    "_id": "61546455",
+    "nombre": "Martina House",
+    "nota1": 10,
+    "nota2": 13,
+    "nota3": 9,
+    "semestre": "Segundo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 80
+  },
+  {
+    "_id": "61e6be23",
+    "nombre": "Amber Best",
+    "nota1": 10,
+    "nota2": 0,
+    "nota3": 10,
+    "semestre": "Segundo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e5156134",
+    "nombre": "Jacobson Holloway",
+    "nota1": 6,
+    "nota2": 5,
+    "nota3": 9,
+    "semestre": "Segundo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e464634",
+    "nombre": "Witt Coffey",
+    "nota1": 20,
+    "nota2": 20,
+    "nota3": 16,
+    "semestre": "Segundo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+
+
+
+
+
+
+  
+  
+  {
+    "_id": "3456be235a",
+    "nombre": "Lynette Mcneil",
+    "nota1": 12,
+    "nota2": 10,
+    "nota3": 13,
+    "semestre": "Octavo",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+  },
+  {
+    "_id": "866be23f6",
+    "nombre": "Beth Shaffer",
+    "nota1": 18,
+    "nota2": 0,
+    "nota3": 3,
+    "semestre": "Octavo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "876be2365",
+    "nombre": "Olivia Dunn",
+    "nota1": 10,
+    "nota2": 7,
+    "nota3": 8,
+    "semestre": "Octavo",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+
+  },
+  {
+    "_id": "6456be2345",
+    "nombre": "Marsh Hobbs",
+    "nota1": 15,
+    "nota2": 13,
+    "nota3": 20,
+    "semestre": "Octavo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "546be2345b",
+    "nombre": "Therese Logan",
+    "nota1": 13,
+    "nota2": 19,
+    "nota3": 7,
+    "semestre": "Octavo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61516134",
+    "nombre": "Marilyn Silva",
+    "nota1": 10,
+    "nota2": 11,
+    "nota3": 10,
+    "semestre": "Octavo",
+    "materia": "Estructura de Datos",
+    "asistencia": 69
+  },
+  {
+    "_id": "61546455",
+    "nombre": "Martina House",
+    "nota1": 10,
+    "nota2": 13,
+    "nota3": 9,
+    "semestre": "Octavo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 80
+  },
+  {
+    "_id": "61e6be23",
+    "nombre": "Amber Best",
+    "nota1": 10,
+    "nota2": 0,
+    "nota3": 10,
+    "semestre": "Octavo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e5156134",
+    "nombre": "Jacobson Holloway",
+    "nota1": 6,
+    "nota2": 5,
+    "nota3": 9,
+    "semestre": "Octavo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e464634",
+    "nombre": "Witt Coffey",
+    "nota1": 20,
+    "nota2": 20,
+    "nota3": 16,
+    "semestre": "Octavo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+
+
+
+  
+
+  
+  
+  {
+    "_id": "3456be235a",
+    "nombre": "Lynette Mcneil",
+    "nota1": 12,
+    "nota2": 10,
+    "nota3": 13,
+    "semestre": "Septimo",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+  },
+  {
+    "_id": "866be23f6",
+    "nombre": "Beth Shaffer",
+    "nota1": 18,
+    "nota2": 0,
+    "nota3": 3,
+    "semestre": "Septimo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "876be2365",
+    "nombre": "Olivia Dunn",
+    "nota1": 10,
+    "nota2": 7,
+    "nota3": 8,
+    "semestre": "Septimo",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+
+  },
+  {
+    "_id": "6456be2345",
+    "nombre": "Marsh Hobbs",
+    "nota1": 15,
+    "nota2": 13,
+    "nota3": 20,
+    "semestre": "Septimo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "546be2345b",
+    "nombre": "Therese Logan",
+    "nota1": 13,
+    "nota2": 19,
+    "nota3": 7,
+    "semestre": "Septimo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61516134",
+    "nombre": "Marilyn Silva",
+    "nota1": 10,
+    "nota2": 11,
+    "nota3": 10,
+    "semestre": "Septimo",
+    "materia": "Estructura de Datos",
+    "asistencia": 69
+  },
+  {
+    "_id": "61546455",
+    "nombre": "Martina House",
+    "nota1": 10,
+    "nota2": 13,
+    "nota3": 9,
+    "semestre": "Septimo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 80
+  },
+  {
+    "_id": "61e6be23",
+    "nombre": "Amber Best",
+    "nota1": 10,
+    "nota2": 0,
+    "nota3": 10,
+    "semestre": "Septimo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e5156134",
+    "nombre": "Jacobson Holloway",
+    "nota1": 6,
+    "nota2": 5,
+    "nota3": 9,
+    "semestre": "Septimo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e464634",
+    "nombre": "Witt Coffey",
+    "nota1": 20,
+    "nota2": 20,
+    "nota3": 16,
+    "semestre": "Septimo",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+
+
+
+
+
+
+
+
+  {
+    "_id": "3456be235a",
+    "nombre": "Lynette Mcneil",
+    "nota1": 12,
+    "nota2": 10,
+    "nota3": 13,
+    "semestre": "Sexto",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+  },
+  {
+    "_id": "866be23f6",
+    "nombre": "Beth Shaffer",
+    "nota1": 18,
+    "nota2": 0,
+    "nota3": 3,
+    "semestre": "Sexto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "876be2365",
+    "nombre": "Olivia Dunn",
+    "nota1": 10,
+    "nota2": 7,
+    "nota3": 8,
+    "semestre": "Sexto",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+
+  },
+  {
+    "_id": "6456be2345",
+    "nombre": "Marsh Hobbs",
+    "nota1": 15,
+    "nota2": 13,
+    "nota3": 20,
+    "semestre": "Sexto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "546be2345b",
+    "nombre": "Therese Logan",
+    "nota1": 13,
+    "nota2": 19,
+    "nota3": 7,
+    "semestre": "Sexto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61516134",
+    "nombre": "Marilyn Silva",
+    "nota1": 10,
+    "nota2": 11,
+    "nota3": 10,
+    "semestre": "Sexto",
+    "materia": "Estructura de Datos",
+    "asistencia": 69
+  },
+  {
+    "_id": "61546455",
+    "nombre": "Martina House",
+    "nota1": 10,
+    "nota2": 13,
+    "nota3": 9,
+    "semestre": "Sexto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 80
+  },
+  {
+    "_id": "61e6be23",
+    "nombre": "Amber Best",
+    "nota1": 10,
+    "nota2": 0,
+    "nota3": 10,
+    "semestre": "Sexto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e5156134",
+    "nombre": "Jacobson Holloway",
+    "nota1": 6,
+    "nota2": 5,
+    "nota3": 9,
+    "semestre": "Sexto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e464634",
+    "nombre": "Witt Coffey",
+    "nota1": 20,
+    "nota2": 20,
+    "nota3": 16,
+    "semestre": "Sexto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+
+
+
+
+
+
+
+
+  
+
+  {
+    "_id": "3456be235a",
+    "nombre": "Lynette Mcneil",
+    "nota1": 12,
+    "nota2": 10,
+    "nota3": 13,
+    "semestre": "Cuarto",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+  },
+  {
+    "_id": "866be23f6",
+    "nombre": "Beth Shaffer",
+    "nota1": 18,
+    "nota2": 0,
+    "nota3": 3,
+    "semestre": "Cuarto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "876be2365",
+    "nombre": "Olivia Dunn",
+    "nota1": 10,
+    "nota2": 7,
+    "nota3": 8,
+    "semestre": "Cuarto",
+    "materia": "Estructura de Datos",
+    "asistencia": 70
+
+  },
+  {
+    "_id": "6456be2345",
+    "nombre": "Marsh Hobbs",
+    "nota1": 15,
+    "nota2": 13,
+    "nota3": 20,
+    "semestre": "Cuarto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "546be2345b",
+    "nombre": "Therese Logan",
+    "nota1": 13,
+    "nota2": 19,
+    "nota3": 7,
+    "semestre": "Cuarto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61516134",
+    "nombre": "Marilyn Silva",
+    "nota1": 10,
+    "nota2": 11,
+    "nota3": 10,
+    "semestre": "Cuarto",
+    "materia": "Estructura de Datos",
+    "asistencia": 69
+  },
+  {
+    "_id": "61546455",
+    "nombre": "Martina House",
+    "nota1": 10,
+    "nota2": 13,
+    "nota3": 9,
+    "semestre": "Cuarto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 80
+  },
+  {
+    "_id": "61e6be23",
+    "nombre": "Amber Best",
+    "nota1": 10,
+    "nota2": 0,
+    "nota3": 10,
+    "semestre": "Cuarto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e5156134",
+    "nombre": "Jacobson Holloway",
+    "nota1": 6,
+    "nota2": 5,
+    "nota3": 9,
+    "semestre": "Cuarto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
+  },
+  {
+    "_id": "61e464634",
+    "nombre": "Witt Coffey",
+    "nota1": 20,
+    "nota2": 20,
+    "nota3": 16,
+    "semestre": "Cuarto",
+    "materia": "Redes de Comunicación",
+    "asistencia": 70
   }
+
+
 ]
+  
