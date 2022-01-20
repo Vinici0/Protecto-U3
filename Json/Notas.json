@@ -296,7 +296,7 @@
     "nota2": 0,
     "nota3": 10,
     "semestre": "Quinto",
-    "materia": "Redes de Comunicación",
+    "materia": "Redes de Comunicac",
     "asistencia": 70
   },
   {
@@ -306,7 +306,7 @@
     "nota2": 5,
     "nota3": 9,
     "semestre": "Quinto",
-    "materia": "Redes de Comunicación",
+    "materia": "Redes de Comunicac",
     "asistencia": 70
   },
   {
@@ -316,7 +316,7 @@
     "nota2": 20,
     "nota3": 16,
     "semestre": "Quinto",
-    "materia": "Redes de Comunicación",
+    "materia": "Redes de Comunicac",
     "asistencia": 70
   },
 
@@ -756,6 +756,9 @@
     "semestre": "Sexto",
     "materia": "Redes de Comunicación",
     "asistencia": 70
+
+    
+
   },
 
 
@@ -764,8 +767,6 @@
 
 
 
-
-  
 
   {
     "_id": "3456be235a",
