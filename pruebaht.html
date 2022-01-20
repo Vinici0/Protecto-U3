@@ -1,0 +1,41 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label>Elija un sabor de nieve:
+        <select class="nieve" name="nieve">
+            <option value="">Seleccione Uno …</option>
+            <option value="1">Chocolate</option>
+            <option value="2">Sardina</option>
+            <option value="3">Vainilla</option>
+        </select>
+    </label>    
+    
+    <div class="resultado"></div>
+
+    <script>
+
+   const selectElement = document.querySelector('.nieve');
+selectElement.addEventListener('change', (event) => {
+const resultado = document.querySelector('.resultado');
+resultado.textContent = `Te gusta el sabor ${event.target.value}`;
+ingles = Number(event.target.value);
+if (ingles == 1) {
+    console.log('Semestre1');
+}else if(ingles == 2){
+    console.log('Semestre2');
+}
+});
+
+    </script>
+    
+</body>
+</html>
