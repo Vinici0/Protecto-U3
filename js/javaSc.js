@@ -73,9 +73,7 @@ function traerDatos (){
                     document.getElementById(color2).innerHTML= 'Reprobo';
                 }else if((resultado >=55 && resultado <=60) && asis>=70){
                     document.getElementById(color2).innerHTML= 'Exonerado';
-                }else{
-                    document.getElementById(color2).innerHTML= 'WTF';
-                }    
+                }   
             }
           
         }
@@ -88,18 +86,27 @@ function traerDatos (){
 
 
 function funBoton(){
+    promedio = 0;
     res = document.querySelector('#muestra');
-    nombre = document.getElementById("nombre").value;
+    semestre = document.getElementById("semestre").value;
+    materia = document.getElementById("materia").value;
     id = document.getElementById("id").value;
-    edad = document.getElementById("edad").value;
-    correo = document.getElementById("correo").value;
-    pago = document.getElementById("pago").value;
+    nombre = document.getElementById("nombre").value;
+    nota1 = document.getElementById("nota1").value;
+    nota2 = document.getElementById("nota2").value;
+    nota3 = document.getElementById("nota3").value;
+    asistencia = document.getElementById("asistencia").value;
     res.innerHTML += `<tr>
-                <td>${id}</td> 
+                <td>${semestre}</td> 
+                <td>${materia}</td>  
+                <td>${id}</td>
                 <td>${nombre}</td>  
-                <td>${edad}</td>
-                <td>${correo}</td>  
-                <td>${pago}</td>
+                <td>${nota1}</td>
+                <td>${nota2}</td>
+                <td>${nota3}</td>
+                <td >${promedio = Number(nota1)+Number(nota3)+Number(nota3)}</td>
+                <td>${asis = asistencia}</td>
+                <td>Aprueba</td>
                 </tr>`;
 }
 
