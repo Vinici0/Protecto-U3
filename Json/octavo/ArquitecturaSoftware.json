@@ -1,0 +1,182 @@
+[
+    {
+        "nlista": 1,
+        "nombres": "Elwin Lay",
+        "semestre": 8,
+        "nota1": 16,
+        "nota2": 20,
+        "nota3": 6,
+        "asis": 28
+    },
+    {
+        "nlista": 2,
+        "nombres": "Krispin McKea",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 17,
+        "nota3": 18,
+        "asis": 77
+    },
+    {
+        "nlista": 3,
+        "nombres": "Francine Pidgin",
+        "semestre": 8,
+        "nota1": 13,
+        "nota2": 20,
+        "nota3": 11,
+        "asis": 63
+    },
+    {
+        "nlista": 4,
+        "nombres": "Dulcy Domokos",
+        "semestre": 8,
+        "nota1": 10,
+        "nota2": 13,
+        "nota3": 16,
+        "asis": 78
+    },
+    {
+        "nlista": 5,
+        "nombres": "Harrison Paladino",
+        "semestre": 8,
+        "nota1": 13,
+        "nota2": 17,
+        "nota3": 8,
+        "asis": 39
+    },
+    {
+        "nlista": 6,
+        "nombres": "Filide Olczak",
+        "semestre": 8,
+        "nota1": 15,
+        "nota2": 20,
+        "nota3": 8,
+        "asis": 48
+    },
+    {
+        "nlista": 7,
+        "nombres": "Hayden Yanyshev",
+        "semestre": 8,
+        "nota1": 17,
+        "nota2": 17,
+        "nota3": 20,
+        "asis": 28
+    },
+    {
+        "nlista": 8,
+        "nombres": "Denni Priestland",
+        "semestre": 8,
+        "nota1": 19,
+        "nota2": 18,
+        "nota3": 5,
+        "asis": 29
+    },
+    {
+        "nlista": 9,
+        "nombres": "Chickie Sporner",
+        "semestre": 8,
+        "nota1": 19,
+        "nota2": 10,
+        "nota3": 20,
+        "asis": 65
+    },
+    {
+        "nlista": 10,
+        "nombres": "Ciel Tolomelli",
+        "semestre": 8,
+        "nota1": 20,
+        "nota2": 11,
+        "nota3": 5,
+        "asis": 29
+    },
+    {
+        "nlista": 11,
+        "nombres": "Tatiania McKenney",
+        "semestre": 8,
+        "nota1": 12,
+        "nota2": 16,
+        "nota3": 6,
+        "asis": 88
+    },
+    {
+        "nlista": 12,
+        "nombres": "Raine Fillan",
+        "semestre": 8,
+        "nota1": 17,
+        "nota2": 14,
+        "nota3": 19,
+        "asis": 94
+    },
+    {
+        "nlista": 13,
+        "nombres": "Ludwig Seadon",
+        "semestre": 8,
+        "nota1": 19,
+        "nota2": 13,
+        "nota3": 17,
+        "asis": 41
+    },
+    {
+        "nlista": 14,
+        "nombres": "Dorey Zavattero",
+        "semestre": 8,
+        "nota1": 16,
+        "nota2": 9,
+        "nota3": 18,
+        "asis": 86
+    },
+    {
+        "nlista": 15,
+        "nombres": "Kim Proske",
+        "semestre": 8,
+        "nota1": 12,
+        "nota2": 19,
+        "nota3": 6,
+        "asis": 50
+    },
+    {
+        "nlista": 16,
+        "nombres": "Darsie Tethacot",
+        "semestre": 8,
+        "nota1": 17,
+        "nota2": 9,
+        "nota3": 18,
+        "asis": 88
+    },
+    {
+        "nlista": 17,
+        "nombres": "Garald Falkous",
+        "semestre": 8,
+        "nota1": 15,
+        "nota2": 18,
+        "nota3": 8,
+        "asis": 81
+    },
+    {
+        "nlista": 18,
+        "nombres": "Lani Baggett",
+        "semestre": 8,
+        "nota1": 14,
+        "nota2": 16,
+        "nota3": 8,
+        "asis": 100
+    },
+    {
+        "nlista": 19,
+        "nombres": "Haley Liccardo",
+        "semestre": 8,
+        "nota1": 17,
+        "nota2": 19,
+        "nota3": 7,
+        "asis": 48
+    },
+    {
+        "nlista": 20,
+        "nombres": "Nicola Rahl",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 10,
+        "nota3": 16,
+        "asis": 21
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "nlista": 1,
+        "nombres": "Rabbi Corryer",
+        "semestre": 8,
+        "nota1": 20,
+        "nota2": 19,
+        "nota3": 9,
+        "asis": 27
+    },
+    {
+        "nlista": 2,
+        "nombres": "Ardelle Britten",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 9,
+        "nota3": 14,
+        "asis": 36
+    },
+    {
+        "nlista": 3,
+        "nombres": "Andreana Harden",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 17,
+        "nota3": 5,
+        "asis": 100
+    },
+    {
+        "nlista": 4,
+        "nombres": "Bentley Chinnick",
+        "semestre": 8,
+        "nota1": 11,
+        "nota2": 14,
+        "nota3": 19,
+        "asis": 22
+    },
+    {
+        "nlista": 5,
+        "nombres": "Maurie Gerlack",
+        "semestre": 8,
+        "nota1": 12,
+        "nota2": 8,
+        "nota3": 8,
+        "asis": 32
+    },
+    {
+        "nlista": 6,
+        "nombres": "Deane Milmore",
+        "semestre": 8,
+        "nota1": 12,
+        "nota2": 11,
+        "nota3": 20,
+        "asis": 24
+    },
+    {
+        "nlista": 7,
+        "nombres": "Cyndia Chipperfield",
+        "semestre": 8,
+        "nota1": 10,
+        "nota2": 18,
+        "nota3": 12,
+        "asis": 25
+    },
+    {
+        "nlista": 8,
+        "nombres": "Clayborn Duding",
+        "semestre": 8,
+        "nota1": 10,
+        "nota2": 12,
+        "nota3": 19,
+        "asis": 23
+    },
+    {
+        "nlista": 9,
+        "nombres": "Hildegarde Anyene",
+        "semestre": 8,
+        "nota1": 10,
+        "nota2": 8,
+        "nota3": 16,
+        "asis": 80
+    },
+    {
+        "nlista": 10,
+        "nombres": "Jessy Fay",
+        "semestre": 8,
+        "nota1": 12,
+        "nota2": 9,
+        "nota3": 19,
+        "asis": 60
+    },
+    {
+        "nlista": 11,
+        "nombres": "Faber Carncross",
+        "semestre": 8,
+        "nota1": 13,
+        "nota2": 9,
+        "nota3": 5,
+        "asis": 40
+    },
+    {
+        "nlista": 12,
+        "nombres": "Daphna MacMakin",
+        "semestre": 8,
+        "nota1": 13,
+        "nota2": 19,
+        "nota3": 7,
+        "asis": 64
+    },
+    {
+        "nlista": 13,
+        "nombres": "Tedman Lampett",
+        "semestre": 8,
+        "nota1": 14,
+        "nota2": 9,
+        "nota3": 14,
+        "asis": 37
+    },
+    {
+        "nlista": 14,
+        "nombres": "Gus McKissack",
+        "semestre": 8,
+        "nota1": 12,
+        "nota2": 11,
+        "nota3": 17,
+        "asis": 29
+    },
+    {
+        "nlista": 15,
+        "nombres": "Lora Lutwidge",
+        "semestre": 8,
+        "nota1": 19,
+        "nota2": 13,
+        "nota3": 6,
+        "asis": 85
+    },
+    {
+        "nlista": 16,
+        "nombres": "Sherwynd McPhate",
+        "semestre": 8,
+        "nota1": 11,
+        "nota2": 13,
+        "nota3": 5,
+        "asis": 20
+    },
+    {
+        "nlista": 17,
+        "nombres": "Elsey Elis",
+        "semestre": 8,
+        "nota1": 11,
+        "nota2": 18,
+        "nota3": 19,
+        "asis": 60
+    },
+    {
+        "nlista": 18,
+        "nombres": "Fabiano Collihole",
+        "semestre": 8,
+        "nota1": 14,
+        "nota2": 14,
+        "nota3": 11,
+        "asis": 82
+    },
+    {
+        "nlista": 19,
+        "nombres": "Dulcine Neath",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 19,
+        "nota3": 10,
+        "asis": 69
+    },
+    {
+        "nlista": 20,
+        "nombres": "Hedda Abdey",
+        "semestre": 8,
+        "nota1": 11,
+        "nota2": 13,
+        "nota3": 20,
+        "asis": 61
+    }
+]

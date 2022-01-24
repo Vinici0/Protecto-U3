@@ -13,33 +13,28 @@ body {
     font-size: 16px;
 }
 
-
-
-.logo{
-    background-color: rgba(	250 250 210);
+.logo {
+    background-color: rgba(250 250 210);
 }
 
 .contenedor {
     margin: auto; /*Para cetrar todo*/
     overflow: hidden;
-
 }
 
 /*ESTILOS NAV*/
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
 }
 
-.menu #logo{
+.menu #logo {
     width: 25%;
     padding: 5px;
 }
 nav .menu {
     margin: 40px 0;
-
-    
 }
 
 nav .menu {
@@ -66,7 +61,7 @@ nav {
 }
 /* ------ ------ HEADER ------- -----*/
 header {
-    background: url("../img/header.jpg");
+    /* background: url("../img/header.jpg"); */
     background-position: center;
     max-height: 450px; /*Alto maximo*/
     font-family: "Potta One";
@@ -128,22 +123,21 @@ header .contenedor-texto .texto .nombre {
     font-size: 45px;
 }
 
-#lista{
+#lista {
     margin-top: 20px;
 }
 
-.th{
-    background-color: #cf9529 ;
+.th {
+    background-color: #cf9529;
     border: solid #a1781f 1px;
     font-weight: bolder;
 }
 
-.section-json{
+.section-json {
     margin-top: 50px;
     margin-bottom: 150px;
     width: 80%;
 }
-
 
 .texto .monkey {
     font-size: 1rem;
@@ -159,13 +153,12 @@ header .contenedor-texto .texto .nombre {
     font-size: 25px;
 }
 
-.texto .monkey-3{
+.texto .monkey-3 {
     font-size: 1rem;
     font-weight: 700;
     color: rgb(0, 73, 0);
     font-size: 50px;
 }
-
 
 /*ICONOS-OPCIONES QUE PRESENTA LA SECCIÃ“N*/
 
@@ -178,11 +171,10 @@ header .contenedor-texto .texto .nombre {
     display: flex;
     margin-bottom: 50px;
     text-align: center;
-
 }
 
-.opciones{
-  background-color: rgba(0, 100, 8, 0.075);  
+.opciones {
+    background-color: rgba(0, 100, 8, 0.075);
 }
 .objetivos div {
     margin-top: 70px;
@@ -195,19 +187,15 @@ header .contenedor-texto .texto .nombre {
     font-size: 20px;
     text-transform: uppercase;
     font-family: Advent Pro;
-
-    
 }
 
 .objetivos div h1:hover {
     color: rgb(233, 255, 223);
 }
 
-
 /*---ARTICLE-SLIDER----*/
 
 .article {
-
     background-color: rgba(16, 51, 0, 0.658);
 }
 
@@ -226,25 +214,21 @@ footer .contacto .titulo {
     text-align: center;
 }
 
-
-
 footer .contenedor {
     display: flex;
     justify-content: center;
 }
 
-
 .opcion {
     width: 25%;
     height: 100%;
-    
+
     display: grid;
     padding: 2%;
 }
 
 .fondofooter {
-    background: url("../imagenes/espe.fondo.jpg");  
-    
+    background: url("../imagenes/espe.fondo.jpg");
 }
 
 .opcion a {
@@ -268,4 +252,3 @@ footer .contenedor {
     color: rgb(102, 20, 0);
 }
 /*SCROLL*/
-

@@ -1,0 +1,182 @@
+[
+    {
+        "nlista": 1,
+        "nombres": "Sherri Coombes",
+        "semestre": 7,
+        "nota1": 16,
+        "nota2": 12,
+        "nota3": 13,
+        "asis": 48
+    },
+    {
+        "nlista": 2,
+        "nombres": "Flemming Burdess",
+        "semestre": 7,
+        "nota1": 15,
+        "nota2": 12,
+        "nota3": 9,
+        "asis": 41
+    },
+    {
+        "nlista": 3,
+        "nombres": "Curr Maddin",
+        "semestre": 7,
+        "nota1": 15,
+        "nota2": 11,
+        "nota3": 15,
+        "asis": 23
+    },
+    {
+        "nlista": 4,
+        "nombres": "Thane Garretson",
+        "semestre": 7,
+        "nota1": 19,
+        "nota2": 14,
+        "nota3": 12,
+        "asis": 50
+    },
+    {
+        "nlista": 5,
+        "nombres": "Paco Billin",
+        "semestre": 7,
+        "nota1": 16,
+        "nota2": 13,
+        "nota3": 18,
+        "asis": 99
+    },
+    {
+        "nlista": 6,
+        "nombres": "Andromache Woolard",
+        "semestre": 7,
+        "nota1": 11,
+        "nota2": 15,
+        "nota3": 16,
+        "asis": 58
+    },
+    {
+        "nlista": 7,
+        "nombres": "Nomi Hofner",
+        "semestre": 7,
+        "nota1": 19,
+        "nota2": 19,
+        "nota3": 12,
+        "asis": 62
+    },
+    {
+        "nlista": 8,
+        "nombres": "Jacques Pittet",
+        "semestre": 7,
+        "nota1": 10,
+        "nota2": 17,
+        "nota3": 5,
+        "asis": 32
+    },
+    {
+        "nlista": 9,
+        "nombres": "Garrek Kennifick",
+        "semestre": 7,
+        "nota1": 16,
+        "nota2": 16,
+        "nota3": 11,
+        "asis": 51
+    },
+    {
+        "nlista": 10,
+        "nombres": "Celestia Chappel",
+        "semestre": 7,
+        "nota1": 17,
+        "nota2": 16,
+        "nota3": 5,
+        "asis": 76
+    },
+    {
+        "nlista": 11,
+        "nombres": "Leontyne Siddons",
+        "semestre": 7,
+        "nota1": 19,
+        "nota2": 8,
+        "nota3": 11,
+        "asis": 58
+    },
+    {
+        "nlista": 12,
+        "nombres": "Bren Bannard",
+        "semestre": 7,
+        "nota1": 16,
+        "nota2": 13,
+        "nota3": 16,
+        "asis": 61
+    },
+    {
+        "nlista": 13,
+        "nombres": "Benoite Smallthwaite",
+        "semestre": 7,
+        "nota1": 18,
+        "nota2": 9,
+        "nota3": 13,
+        "asis": 25
+    },
+    {
+        "nlista": 14,
+        "nombres": "Joana Fulloway",
+        "semestre": 7,
+        "nota1": 11,
+        "nota2": 8,
+        "nota3": 12,
+        "asis": 20
+    },
+    {
+        "nlista": 15,
+        "nombres": "Devonne Kief",
+        "semestre": 7,
+        "nota1": 15,
+        "nota2": 12,
+        "nota3": 11,
+        "asis": 53
+    },
+    {
+        "nlista": 16,
+        "nombres": "Sanders Ranstead",
+        "semestre": 7,
+        "nota1": 12,
+        "nota2": 10,
+        "nota3": 13,
+        "asis": 77
+    },
+    {
+        "nlista": 17,
+        "nombres": "Cathyleen Davidov",
+        "semestre": 7,
+        "nota1": 13,
+        "nota2": 20,
+        "nota3": 7,
+        "asis": 21
+    },
+    {
+        "nlista": 18,
+        "nombres": "Kaia Farncomb",
+        "semestre": 7,
+        "nota1": 14,
+        "nota2": 17,
+        "nota3": 20,
+        "asis": 45
+    },
+    {
+        "nlista": 19,
+        "nombres": "Suzanna Mohun",
+        "semestre": 7,
+        "nota1": 16,
+        "nota2": 14,
+        "nota3": 13,
+        "asis": 29
+    },
+    {
+        "nlista": 20,
+        "nombres": "Amby Gatteridge",
+        "semestre": 7,
+        "nota1": 20,
+        "nota2": 12,
+        "nota3": 19,
+        "asis": 87
+    }
+]

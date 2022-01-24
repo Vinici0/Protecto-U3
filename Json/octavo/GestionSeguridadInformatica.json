@@ -1,0 +1,182 @@
+[
+    {
+        "nlista": 1,
+        "nombres": "Bo Habble",
+        "semestre": 8,
+        "nota1": 16,
+        "nota2": 10,
+        "nota3": 20,
+        "asis": 38
+    },
+    {
+        "nlista": 2,
+        "nombres": "Harmony Danilewicz",
+        "semestre": 8,
+        "nota1": 15,
+        "nota2": 13,
+        "nota3": 19,
+        "asis": 64
+    },
+    {
+        "nlista": 3,
+        "nombres": "Cecilius Banasevich",
+        "semestre": 8,
+        "nota1": 11,
+        "nota2": 14,
+        "nota3": 14,
+        "asis": 65
+    },
+    {
+        "nlista": 4,
+        "nombres": "Stanislaus Challenger",
+        "semestre": 8,
+        "nota1": 20,
+        "nota2": 12,
+        "nota3": 13,
+        "asis": 51
+    },
+    {
+        "nlista": 5,
+        "nombres": "Steward Ronchetti",
+        "semestre": 8,
+        "nota1": 15,
+        "nota2": 17,
+        "nota3": 8,
+        "asis": 73
+    },
+    {
+        "nlista": 6,
+        "nombres": "Janelle Sumption",
+        "semestre": 8,
+        "nota1": 13,
+        "nota2": 11,
+        "nota3": 13,
+        "asis": 38
+    },
+    {
+        "nlista": 7,
+        "nombres": "Ariel Fredson",
+        "semestre": 8,
+        "nota1": 12,
+        "nota2": 15,
+        "nota3": 7,
+        "asis": 73
+    },
+    {
+        "nlista": 8,
+        "nombres": "Gardner Lambot",
+        "semestre": 8,
+        "nota1": 16,
+        "nota2": 18,
+        "nota3": 13,
+        "asis": 20
+    },
+    {
+        "nlista": 9,
+        "nombres": "Simonette Spinke",
+        "semestre": 8,
+        "nota1": 11,
+        "nota2": 15,
+        "nota3": 8,
+        "asis": 45
+    },
+    {
+        "nlista": 10,
+        "nombres": "Nessi Waples",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 15,
+        "nota3": 15,
+        "asis": 91
+    },
+    {
+        "nlista": 11,
+        "nombres": "Rodge Torald",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 11,
+        "nota3": 12,
+        "asis": 66
+    },
+    {
+        "nlista": 12,
+        "nombres": "Valene Burrells",
+        "semestre": 8,
+        "nota1": 12,
+        "nota2": 11,
+        "nota3": 8,
+        "asis": 35
+    },
+    {
+        "nlista": 13,
+        "nombres": "Cristionna Curtain",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 13,
+        "nota3": 7,
+        "asis": 26
+    },
+    {
+        "nlista": 14,
+        "nombres": "Xylina Ricker",
+        "semestre": 8,
+        "nota1": 20,
+        "nota2": 10,
+        "nota3": 17,
+        "asis": 69
+    },
+    {
+        "nlista": 15,
+        "nombres": "Gilligan McAlinden",
+        "semestre": 8,
+        "nota1": 16,
+        "nota2": 18,
+        "nota3": 8,
+        "asis": 51
+    },
+    {
+        "nlista": 16,
+        "nombres": "Quintus Marryatt",
+        "semestre": 8,
+        "nota1": 11,
+        "nota2": 18,
+        "nota3": 14,
+        "asis": 59
+    },
+    {
+        "nlista": 17,
+        "nombres": "Charis Windus",
+        "semestre": 8,
+        "nota1": 17,
+        "nota2": 20,
+        "nota3": 16,
+        "asis": 86
+    },
+    {
+        "nlista": 18,
+        "nombres": "Gawen Collough",
+        "semestre": 8,
+        "nota1": 17,
+        "nota2": 15,
+        "nota3": 12,
+        "asis": 97
+    },
+    {
+        "nlista": 19,
+        "nombres": "Minna Dudmesh",
+        "semestre": 8,
+        "nota1": 11,
+        "nota2": 10,
+        "nota3": 9,
+        "asis": 73
+    },
+    {
+        "nlista": 20,
+        "nombres": "Ariella Meaker",
+        "semestre": 8,
+        "nota1": 16,
+        "nota2": 19,
+        "nota3": 11,
+        "asis": 20
+    }
+]

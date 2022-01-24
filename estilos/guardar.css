@@ -1,21 +1,20 @@
-input[type="search"]{
-    width: 45px; /*ancho por defecto*/
-    background: #ededed url('search-icon.png') no-repeat 9px center; /*icono lupa*/
-    padding: 9px 10px 9px 32px;
-    border-radius: 15em;
-    -webkit-transition: all .5s; /* transición de .5seg a todos los elementos para chrome*/
-    -moz-transition: all .5s; /* transición de .5seg a todos los elementos para mozilla*/
-    -o-transition: all .5s; /* transición de .5seg a todos los elementos para ophera*/
-    transition: all .5s; /* transición de .5seg a todos los elementos*/
-    outline: none; /* ocultar el fucos automático de los input */
+.main input[type="search"] {
+	width: 45px; /*ancho por defecto*/
+	background: #ededed url("search-icon.png") no-repeat 9px center; /*icono lupa*/
+	padding: 9px 10px 9px 32px;
+	border-radius: 15em;
+	-webkit-transition: all 0.5s; /* transición de .5seg a todos los elementos para chrome*/
+	-moz-transition: all 0.5s; /* transición de .5seg a todos los elementos para mozilla*/
+	-o-transition: all 0.5s; /* transición de .5seg a todos los elementos para ophera*/
+	transition: all 0.5s; /* transición de .5seg a todos los elementos*/
+	outline: none; /* ocultar el fucos automático de los input */
 }
-input[type="search"]:focus{
-    width: 130px; /*tamaño del boton buscar al hacer click*/
-    padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
-    color: #000;
-    background-color: #FFF;
+.main input[type="search"]:focus {
+	width: 130px; /*tamaño del boton buscar al hacer click*/
+	padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+	color: #000;
+	background-color: #fff;
 }
-
 
 * {
 	margin: 0;
@@ -24,8 +23,8 @@ input[type="search"]:focus{
 }
 
 body {
-	background: #F5F6FA;
-	font-family: 'Montserrat', sans-serif;
+	background: #f5f6fa;
+	font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -40,21 +39,21 @@ header h1 {
 	font-size: 24px;
 	line-height: 24px;
 	font-weight: 600;
-	color: #393A58;
+	color: #393a58;
 	display: inline-block;
 }
 
 .btn {
 	font-size: 14px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	border: none;
 	color: #fff;
-	background: #54B53D;
+	background: #54b53d;
 	cursor: pointer;
 	height: 40px;
 	line-height: 40px;
 	padding: 0 20px;
-	border-radius:100px;
+	border-radius: 100px;
 }
 
 header button.active {
@@ -71,7 +70,7 @@ header button.active {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 20px;
-	transition: .3s ease all;
+	transition: 0.3s ease all;
 }
 
 .formulario input {
@@ -109,16 +108,17 @@ table {
 	border-collapse: collapse;
 	text-align: center;
 	margin-bottom: 80px;
-	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16);
+	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
-td, th {
-	border-bottom:1px solid #E9E9E9;
+td,
+th {
+	border-bottom: 1px solid #e9e9e9;
 	padding: 20px;
 }
 
 th {
-	color:#393A58;
+	color: #393a58;
 	font-size: 16px;
 }
 
@@ -129,12 +129,12 @@ td {
 .loader {
 	margin: auto;
 	display: none;
-    border: 5px solid #f3f3f3; /* Light grey */
-    border-top: 5px solid #3498db; /* Blue */
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    animation: spin 2s linear infinite;
+	border: 5px solid #f3f3f3; /* Light grey */
+	border-top: 5px solid #3498db; /* Blue */
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	animation: spin 2s linear infinite;
 }
 
 .loader.active {
@@ -142,6 +142,10 @@ td {
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }

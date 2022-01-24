@@ -1,0 +1,182 @@
+[
+    {
+        "nlista": 1,
+        "nombres": "Ben Hrinchenko",
+        "semestre": 7,
+        "nota1": 13,
+        "nota2": 8,
+        "nota3": 8,
+        "asis": 57
+    },
+    {
+        "nlista": 2,
+        "nombres": "Jordanna Gidman",
+        "semestre": 7,
+        "nota1": 17,
+        "nota2": 16,
+        "nota3": 8,
+        "asis": 34
+    },
+    {
+        "nlista": 3,
+        "nombres": "Carole Jaukovic",
+        "semestre": 7,
+        "nota1": 18,
+        "nota2": 12,
+        "nota3": 5,
+        "asis": 90
+    },
+    {
+        "nlista": 4,
+        "nombres": "Harmonie Lailey",
+        "semestre": 7,
+        "nota1": 18,
+        "nota2": 15,
+        "nota3": 16,
+        "asis": 61
+    },
+    {
+        "nlista": 5,
+        "nombres": "Zia Torrese",
+        "semestre": 7,
+        "nota1": 19,
+        "nota2": 15,
+        "nota3": 6,
+        "asis": 66
+    },
+    {
+        "nlista": 6,
+        "nombres": "Karina Merchant",
+        "semestre": 7,
+        "nota1": 10,
+        "nota2": 19,
+        "nota3": 13,
+        "asis": 41
+    },
+    {
+        "nlista": 7,
+        "nombres": "Seline Scholcroft",
+        "semestre": 7,
+        "nota1": 19,
+        "nota2": 17,
+        "nota3": 18,
+        "asis": 91
+    },
+    {
+        "nlista": 8,
+        "nombres": "Teresina Bizley",
+        "semestre": 7,
+        "nota1": 12,
+        "nota2": 8,
+        "nota3": 20,
+        "asis": 22
+    },
+    {
+        "nlista": 9,
+        "nombres": "Chester Syder",
+        "semestre": 7,
+        "nota1": 20,
+        "nota2": 8,
+        "nota3": 5,
+        "asis": 31
+    },
+    {
+        "nlista": 10,
+        "nombres": "Lou Rowatt",
+        "semestre": 7,
+        "nota1": 20,
+        "nota2": 9,
+        "nota3": 7,
+        "asis": 36
+    },
+    {
+        "nlista": 11,
+        "nombres": "Ilario Bradnam",
+        "semestre": 7,
+        "nota1": 20,
+        "nota2": 12,
+        "nota3": 17,
+        "asis": 24
+    },
+    {
+        "nlista": 12,
+        "nombres": "Heidi Creasey",
+        "semestre": 7,
+        "nota1": 13,
+        "nota2": 20,
+        "nota3": 6,
+        "asis": 54
+    },
+    {
+        "nlista": 13,
+        "nombres": "Rania Kiddye",
+        "semestre": 7,
+        "nota1": 19,
+        "nota2": 13,
+        "nota3": 16,
+        "asis": 90
+    },
+    {
+        "nlista": 14,
+        "nombres": "Collen Bissiker",
+        "semestre": 7,
+        "nota1": 16,
+        "nota2": 17,
+        "nota3": 5,
+        "asis": 68
+    },
+    {
+        "nlista": 15,
+        "nombres": "Leelah Rawdall",
+        "semestre": 7,
+        "nota1": 11,
+        "nota2": 13,
+        "nota3": 7,
+        "asis": 72
+    },
+    {
+        "nlista": 16,
+        "nombres": "Cristabel Blanchet",
+        "semestre": 7,
+        "nota1": 12,
+        "nota2": 11,
+        "nota3": 10,
+        "asis": 99
+    },
+    {
+        "nlista": 17,
+        "nombres": "Deeyn Ruoss",
+        "semestre": 7,
+        "nota1": 20,
+        "nota2": 18,
+        "nota3": 12,
+        "asis": 95
+    },
+    {
+        "nlista": 18,
+        "nombres": "Kellia Yanez",
+        "semestre": 7,
+        "nota1": 11,
+        "nota2": 8,
+        "nota3": 5,
+        "asis": 52
+    },
+    {
+        "nlista": 19,
+        "nombres": "Simonne Goodlud",
+        "semestre": 7,
+        "nota1": 10,
+        "nota2": 19,
+        "nota3": 15,
+        "asis": 89
+    },
+    {
+        "nlista": 20,
+        "nombres": "Velma Sergison",
+        "semestre": 7,
+        "nota1": 20,
+        "nota2": 18,
+        "nota3": 11,
+        "asis": 83
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "nlista": 1,
+        "nombres": "Obie Briffett",
+        "semestre": 8,
+        "nota1": 19,
+        "nota2": 16,
+        "nota3": 15,
+        "asis": 74
+    },
+    {
+        "nlista": 2,
+        "nombres": "Stanislaus Oslar",
+        "semestre": 8,
+        "nota1": 10,
+        "nota2": 11,
+        "nota3": 18,
+        "asis": 86
+    },
+    {
+        "nlista": 3,
+        "nombres": "Modestia Keitch",
+        "semestre": 8,
+        "nota1": 16,
+        "nota2": 10,
+        "nota3": 17,
+        "asis": 30
+    },
+    {
+        "nlista": 4,
+        "nombres": "Nicky Wiltshire",
+        "semestre": 8,
+        "nota1": 20,
+        "nota2": 20,
+        "nota3": 17,
+        "asis": 22
+    },
+    {
+        "nlista": 5,
+        "nombres": "Job Rampling",
+        "semestre": 8,
+        "nota1": 13,
+        "nota2": 19,
+        "nota3": 9,
+        "asis": 86
+    },
+    {
+        "nlista": 6,
+        "nombres": "Rene Clineck",
+        "semestre": 8,
+        "nota1": 17,
+        "nota2": 14,
+        "nota3": 16,
+        "asis": 30
+    },
+    {
+        "nlista": 7,
+        "nombres": "Reed Leeves",
+        "semestre": 8,
+        "nota1": 10,
+        "nota2": 12,
+        "nota3": 17,
+        "asis": 95
+    },
+    {
+        "nlista": 8,
+        "nombres": "Andres O'Carrol",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 8,
+        "nota3": 10,
+        "asis": 32
+    },
+    {
+        "nlista": 9,
+        "nombres": "Gardy Wormleighton",
+        "semestre": 8,
+        "nota1": 10,
+        "nota2": 13,
+        "nota3": 20,
+        "asis": 66
+    },
+    {
+        "nlista": 10,
+        "nombres": "Carl Knolles-Green",
+        "semestre": 8,
+        "nota1": 13,
+        "nota2": 17,
+        "nota3": 5,
+        "asis": 85
+    },
+    {
+        "nlista": 11,
+        "nombres": "Jeddy Ferrone",
+        "semestre": 8,
+        "nota1": 14,
+        "nota2": 15,
+        "nota3": 10,
+        "asis": 47
+    },
+    {
+        "nlista": 12,
+        "nombres": "Marci O'Cleary",
+        "semestre": 8,
+        "nota1": 11,
+        "nota2": 12,
+        "nota3": 10,
+        "asis": 68
+    },
+    {
+        "nlista": 13,
+        "nombres": "Boniface Grafham",
+        "semestre": 8,
+        "nota1": 17,
+        "nota2": 17,
+        "nota3": 8,
+        "asis": 45
+    },
+    {
+        "nlista": 14,
+        "nombres": "Timofei Pottery",
+        "semestre": 8,
+        "nota1": 12,
+        "nota2": 16,
+        "nota3": 5,
+        "asis": 44
+    },
+    {
+        "nlista": 15,
+        "nombres": "Amelia Elen",
+        "semestre": 8,
+        "nota1": 19,
+        "nota2": 8,
+        "nota3": 19,
+        "asis": 100
+    },
+    {
+        "nlista": 16,
+        "nombres": "Lanni Krolik",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 19,
+        "nota3": 12,
+        "asis": 56
+    },
+    {
+        "nlista": 17,
+        "nombres": "Lester Deval",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 17,
+        "nota3": 15,
+        "asis": 65
+    },
+    {
+        "nlista": 18,
+        "nombres": "Guillaume Wickes",
+        "semestre": 8,
+        "nota1": 11,
+        "nota2": 12,
+        "nota3": 7,
+        "asis": 42
+    },
+    {
+        "nlista": 19,
+        "nombres": "Elladine Willcock",
+        "semestre": 8,
+        "nota1": 16,
+        "nota2": 18,
+        "nota3": 11,
+        "asis": 65
+    },
+    {
+        "nlista": 20,
+        "nombres": "Myrwyn Packington",
+        "semestre": 8,
+        "nota1": 15,
+        "nota2": 12,
+        "nota3": 18,
+        "asis": 36
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "nlista": 1,
+        "nombres": "Royal Durbyn",
+        "semestre": 8,
+        "nota1": 16,
+        "nota2": 15,
+        "nota3": 9,
+        "asis": 27
+    },
+    {
+        "nlista": 2,
+        "nombres": "Dorisa Jerams",
+        "semestre": 8,
+        "nota1": 12,
+        "nota2": 16,
+        "nota3": 16,
+        "asis": 93
+    },
+    {
+        "nlista": 3,
+        "nombres": "Isis Muino",
+        "semestre": 8,
+        "nota1": 12,
+        "nota2": 19,
+        "nota3": 10,
+        "asis": 85
+    },
+    {
+        "nlista": 4,
+        "nombres": "Abdul Benian",
+        "semestre": 8,
+        "nota1": 20,
+        "nota2": 17,
+        "nota3": 20,
+        "asis": 74
+    },
+    {
+        "nlista": 5,
+        "nombres": "Rose Bruniges",
+        "semestre": 8,
+        "nota1": 11,
+        "nota2": 13,
+        "nota3": 7,
+        "asis": 88
+    },
+    {
+        "nlista": 6,
+        "nombres": "Mathilde Gianiello",
+        "semestre": 8,
+        "nota1": 19,
+        "nota2": 15,
+        "nota3": 14,
+        "asis": 58
+    },
+    {
+        "nlista": 7,
+        "nombres": "Con Darinton",
+        "semestre": 8,
+        "nota1": 15,
+        "nota2": 16,
+        "nota3": 6,
+        "asis": 65
+    },
+    {
+        "nlista": 8,
+        "nombres": "Peggi Henrot",
+        "semestre": 8,
+        "nota1": 16,
+        "nota2": 11,
+        "nota3": 16,
+        "asis": 84
+    },
+    {
+        "nlista": 9,
+        "nombres": "Tresa Harmond",
+        "semestre": 8,
+        "nota1": 19,
+        "nota2": 11,
+        "nota3": 9,
+        "asis": 90
+    },
+    {
+        "nlista": 10,
+        "nombres": "Orville Adds",
+        "semestre": 8,
+        "nota1": 15,
+        "nota2": 13,
+        "nota3": 15,
+        "asis": 84
+    },
+    {
+        "nlista": 11,
+        "nombres": "Harri Spong",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 9,
+        "nota3": 6,
+        "asis": 28
+    },
+    {
+        "nlista": 12,
+        "nombres": "Shannon Dayley",
+        "semestre": 8,
+        "nota1": 15,
+        "nota2": 18,
+        "nota3": 14,
+        "asis": 88
+    },
+    {
+        "nlista": 13,
+        "nombres": "Daria Daenen",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 16,
+        "nota3": 9,
+        "asis": 29
+    },
+    {
+        "nlista": 14,
+        "nombres": "Odie Ashbrook",
+        "semestre": 8,
+        "nota1": 10,
+        "nota2": 14,
+        "nota3": 10,
+        "asis": 24
+    },
+    {
+        "nlista": 15,
+        "nombres": "Odessa Baumert",
+        "semestre": 8,
+        "nota1": 11,
+        "nota2": 13,
+        "nota3": 20,
+        "asis": 64
+    },
+    {
+        "nlista": 16,
+        "nombres": "Britney Gudd",
+        "semestre": 8,
+        "nota1": 12,
+        "nota2": 13,
+        "nota3": 15,
+        "asis": 44
+    },
+    {
+        "nlista": 17,
+        "nombres": "Willamina Burchatt",
+        "semestre": 8,
+        "nota1": 13,
+        "nota2": 19,
+        "nota3": 11,
+        "asis": 62
+    },
+    {
+        "nlista": 18,
+        "nombres": "Thurston Gleadhall",
+        "semestre": 8,
+        "nota1": 18,
+        "nota2": 14,
+        "nota3": 10,
+        "asis": 50
+    },
+    {
+        "nlista": 19,
+        "nombres": "Aldin Anfrey",
+        "semestre": 8,
+        "nota1": 19,
+        "nota2": 16,
+        "nota3": 12,
+        "asis": 58
+    },
+    {
+        "nlista": 20,
+        "nombres": "Clark Anfusso",
+        "semestre": 8,
+        "nota1": 13,
+        "nota2": 19,
+        "nota3": 12,
+        "asis": 87
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "nlista": 1,
+        "nombres": "Gustav Frowde",
+        "semestre": 7,
+        "nota1": 10,
+        "nota2": 15,
+        "nota3": 16,
+        "asis": 60
+    },
+    {
+        "nlista": 2,
+        "nombres": "Malissia Eckery",
+        "semestre": 7,
+        "nota1": 11,
+        "nota2": 11,
+        "nota3": 18,
+        "asis": 21
+    },
+    {
+        "nlista": 3,
+        "nombres": "Alicea Bolus",
+        "semestre": 7,
+        "nota1": 11,
+        "nota2": 12,
+        "nota3": 9,
+        "asis": 73
+    },
+    {
+        "nlista": 4,
+        "nombres": "Colver Jerzyk",
+        "semestre": 7,
+        "nota1": 19,
+        "nota2": 14,
+        "nota3": 16,
+        "asis": 55
+    },
+    {
+        "nlista": 5,
+        "nombres": "Prissie Hodgins",
+        "semestre": 7,
+        "nota1": 14,
+        "nota2": 15,
+        "nota3": 16,
+        "asis": 71
+    },
+    {
+        "nlista": 6,
+        "nombres": "Melinda De Morena",
+        "semestre": 7,
+        "nota1": 12,
+        "nota2": 12,
+        "nota3": 8,
+        "asis": 67
+    },
+    {
+        "nlista": 7,
+        "nombres": "Gabbey Molan",
+        "semestre": 7,
+        "nota1": 18,
+        "nota2": 14,
+        "nota3": 9,
+        "asis": 67
+    },
+    {
+        "nlista": 8,
+        "nombres": "Jacinta Sorey",
+        "semestre": 7,
+        "nota1": 16,
+        "nota2": 8,
+        "nota3": 19,
+        "asis": 99
+    },
+    {
+        "nlista": 9,
+        "nombres": "Jarvis Conradie",
+        "semestre": 7,
+        "nota1": 17,
+        "nota2": 19,
+        "nota3": 13,
+        "asis": 48
+    },
+    {
+        "nlista": 10,
+        "nombres": "Zorana Shreenan",
+        "semestre": 7,
+        "nota1": 15,
+        "nota2": 14,
+        "nota3": 19,
+        "asis": 71
+    },
+    {
+        "nlista": 11,
+        "nombres": "Lyda Sinyard",
+        "semestre": 7,
+        "nota1": 17,
+        "nota2": 16,
+        "nota3": 9,
+        "asis": 39
+    },
+    {
+        "nlista": 12,
+        "nombres": "Maudie Bushen",
+        "semestre": 7,
+        "nota1": 15,
+        "nota2": 8,
+        "nota3": 9,
+        "asis": 74
+    },
+    {
+        "nlista": 13,
+        "nombres": "Keeley Griniov",
+        "semestre": 7,
+        "nota1": 12,
+        "nota2": 16,
+        "nota3": 20,
+        "asis": 55
+    },
+    {
+        "nlista": 14,
+        "nombres": "Helen Revill",
+        "semestre": 7,
+        "nota1": 18,
+        "nota2": 20,
+        "nota3": 9,
+        "asis": 76
+    },
+    {
+        "nlista": 15,
+        "nombres": "Cristionna Delgardo",
+        "semestre": 7,
+        "nota1": 19,
+        "nota2": 16,
+        "nota3": 9,
+        "asis": 39
+    },
+    {
+        "nlista": 16,
+        "nombres": "Onfre Goodhall",
+        "semestre": 7,
+        "nota1": 17,
+        "nota2": 16,
+        "nota3": 13,
+        "asis": 22
+    },
+    {
+        "nlista": 17,
+        "nombres": "Brady Clarabut",
+        "semestre": 7,
+        "nota1": 13,
+        "nota2": 11,
+        "nota3": 12,
+        "asis": 95
+    },
+    {
+        "nlista": 18,
+        "nombres": "Denice Latham",
+        "semestre": 7,
+        "nota1": 12,
+        "nota2": 10,
+        "nota3": 10,
+        "asis": 94
+    },
+    {
+        "nlista": 19,
+        "nombres": "Gilligan Inderwick",
+        "semestre": 7,
+        "nota1": 11,
+        "nota2": 17,
+        "nota3": 15,
+        "asis": 59
+    },
+    {
+        "nlista": 20,
+        "nombres": "Gardner Cotter",
+        "semestre": 7,
+        "nota1": 19,
+        "nota2": 8,
+        "nota3": 5,
+        "asis": 85
+    }
+]

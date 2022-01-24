@@ -1,0 +1,74 @@
+[
+    {
+        "materia": [
+            "Álgebra lineal",
+            "Fundamentos de programación",
+            "Cálculo diferencial e integral",
+            "Química I",
+            "Cultura Ambiental"
+        ]
+    },
+    {
+        "materia": [
+            "Cálculo vectorial",
+            "Física I",
+            "Ecuaciones diferenciale",
+            "Programación Orientada a Objetos",
+            "Computación Digital"
+        ]
+    },
+    {
+        "materia": [
+            "Métodos numéricos",
+            "Metodologías de Desarrollo Software",
+            "Estadística",
+            "Sistemas Operativos",
+            "Estructura de Datos"
+        ]
+    },
+    {
+        "materia": [
+            "Administración y Mantenimiento de Sistemas",
+            "Interfaces y Multimedia",
+            "Fundamentos de Sistemas WEB",
+            "Redes de Comunicaciones",
+            "Liderazgo"
+        ]
+    },
+    {
+        "materia": [
+            "Gestión de Base de Datos",
+            "Aplicación de Sistemas Operativos",
+            "Internetworking",
+            "Aplicación de Tecnologías WEB",
+            "Realidad Nacional y Geopolitic"
+        ]
+    },
+    {
+        "materia": [
+            "Inteligencia Artificial",
+            "Modelado Avanzado de Base de Datos",
+            "Desarrollo Web para Integración de Tecnologías",
+            "Lectura y Escritura de Textos Académicos",
+            "Programación Integrativa de componentes WEB"
+        ]
+    },
+    {
+        "materia": [
+            "Programación Avanzada",
+            "Minería de Datos",
+            "Seguridad Informática",
+            "Diseño y Evaluación de Proyectos de TI",
+            "Aplicaciones Distribuidas"
+        ]
+    },
+    {
+        "materia": [
+            "Gestión de la Seguridad Informática",
+            "Arquitectura de Software",
+            "Gestión y Emprendimiento",
+            "Tecnologías Emergentes",
+            "Profesionalizante"
+        ]
+    }
+]

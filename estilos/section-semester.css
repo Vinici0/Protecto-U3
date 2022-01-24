@@ -1,0 +1,83 @@
+.content-semester {
+    width: 90%;
+    margin: auto;
+}
+
+.container-semester header {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-semester header h1 {
+    padding-bottom: 2rem;
+}
+
+.semester-btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+.semester-btns button {
+    margin: 1rem;
+    width: auto;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    background: #54b53d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.semester-btns button:hover {
+    background: rgb(2, 102, 2);
+    color: white;
+}
+
+.materias-options {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.materias-options label {
+    padding-bottom: 0.5rem;
+}
+
+.materias-options select {
+    width: 32rem;
+    text-align: center;
+    font-size: 1.8rem;
+    border-color: rgb(2, 102, 2);
+    border-radius: 5px;
+    background-color: transparent;
+    border-width: 2.5px;
+}
+
+.materias-options button {
+    width: 150px;
+    margin-top: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    background: #54b53d;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.materias-options button:hover {
+    background: rgb(2, 102, 2);
+}
+
+#position-container,
+#estudaintes-container {
+    margin: 0.8rem 0;
+}

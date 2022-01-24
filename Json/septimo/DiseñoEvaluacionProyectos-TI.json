@@ -1,0 +1,182 @@
+[
+    {
+        "nlista": 1,
+        "nombres": "Garrek Jochen",
+        "semestre": 7,
+        "nota1": 13,
+        "nota2": 13,
+        "nota3": 15,
+        "asis": 68
+    },
+    {
+        "nlista": 2,
+        "nombres": "Aleen Gowrich",
+        "semestre": 7,
+        "nota1": 14,
+        "nota2": 9,
+        "nota3": 9,
+        "asis": 33
+    },
+    {
+        "nlista": 3,
+        "nombres": "Cobb Duffyn",
+        "semestre": 7,
+        "nota1": 11,
+        "nota2": 8,
+        "nota3": 15,
+        "asis": 65
+    },
+    {
+        "nlista": 4,
+        "nombres": "Davidson Szantho",
+        "semestre": 7,
+        "nota1": 13,
+        "nota2": 13,
+        "nota3": 13,
+        "asis": 97
+    },
+    {
+        "nlista": 5,
+        "nombres": "Theresita Roux",
+        "semestre": 7,
+        "nota1": 13,
+        "nota2": 11,
+        "nota3": 11,
+        "asis": 30
+    },
+    {
+        "nlista": 6,
+        "nombres": "Ali Sandwick",
+        "semestre": 7,
+        "nota1": 17,
+        "nota2": 16,
+        "nota3": 16,
+        "asis": 89
+    },
+    {
+        "nlista": 7,
+        "nombres": "Dacie Sambedge",
+        "semestre": 7,
+        "nota1": 12,
+        "nota2": 15,
+        "nota3": 13,
+        "asis": 57
+    },
+    {
+        "nlista": 8,
+        "nombres": "Win Zimmerman",
+        "semestre": 7,
+        "nota1": 20,
+        "nota2": 12,
+        "nota3": 18,
+        "asis": 37
+    },
+    {
+        "nlista": 9,
+        "nombres": "Bernardina Gilardoni",
+        "semestre": 7,
+        "nota1": 11,
+        "nota2": 16,
+        "nota3": 12,
+        "asis": 23
+    },
+    {
+        "nlista": 10,
+        "nombres": "Fernandina Akaster",
+        "semestre": 7,
+        "nota1": 19,
+        "nota2": 17,
+        "nota3": 20,
+        "asis": 64
+    },
+    {
+        "nlista": 11,
+        "nombres": "Fawne Arter",
+        "semestre": 7,
+        "nota1": 10,
+        "nota2": 15,
+        "nota3": 7,
+        "asis": 59
+    },
+    {
+        "nlista": 12,
+        "nombres": "Ralph McCrystal",
+        "semestre": 7,
+        "nota1": 14,
+        "nota2": 12,
+        "nota3": 9,
+        "asis": 85
+    },
+    {
+        "nlista": 13,
+        "nombres": "Alec Eckery",
+        "semestre": 7,
+        "nota1": 14,
+        "nota2": 13,
+        "nota3": 12,
+        "asis": 71
+    },
+    {
+        "nlista": 14,
+        "nombres": "Rolfe Crann",
+        "semestre": 7,
+        "nota1": 18,
+        "nota2": 18,
+        "nota3": 8,
+        "asis": 60
+    },
+    {
+        "nlista": 15,
+        "nombres": "Emera Von Der Empten",
+        "semestre": 7,
+        "nota1": 12,
+        "nota2": 10,
+        "nota3": 7,
+        "asis": 82
+    },
+    {
+        "nlista": 16,
+        "nombres": "Edmon Giggie",
+        "semestre": 7,
+        "nota1": 18,
+        "nota2": 19,
+        "nota3": 11,
+        "asis": 22
+    },
+    {
+        "nlista": 17,
+        "nombres": "Stillman Kemer",
+        "semestre": 7,
+        "nota1": 12,
+        "nota2": 19,
+        "nota3": 16,
+        "asis": 77
+    },
+    {
+        "nlista": 18,
+        "nombres": "Sherm Perrelli",
+        "semestre": 7,
+        "nota1": 13,
+        "nota2": 13,
+        "nota3": 19,
+        "asis": 68
+    },
+    {
+        "nlista": 19,
+        "nombres": "Culver Bolan",
+        "semestre": 7,
+        "nota1": 11,
+        "nota2": 8,
+        "nota3": 10,
+        "asis": 68
+    },
+    {
+        "nlista": 20,
+        "nombres": "Gilberte Hames",
+        "semestre": 7,
+        "nota1": 14,
+        "nota2": 19,
+        "nota3": 16,
+        "asis": 60
+    }
+]
