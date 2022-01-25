@@ -88,7 +88,17 @@
     <div id="estudaintes-container">
       <h4">La materia cuenta con: <span id="cantidad-estudiantes"></span> estudiantes.</h4>
     </div>
-    <table class="tabla_semesters" style="width: 100%;">
+    <div id="formulario" class="form formulario">  
+      <input type="text" id="nlista" placeholder="N. lista">
+      <input type="text" name="nombres" id="nombres" placeholder="Nombres">
+      <input type="text" name="nombre" id="semestre" placeholder="Semestre">
+      <input type="text" name="edad" id="nota1" placeholder="Nota 1">
+      <input type="text" name="edad" id="nota2" placeholder="Nota 2">
+      <input type="text" name="edad" id="nota3" placeholder="Nota 3">
+      <input type="text" name="correo" id="asistencia" placeholder="Asistencia">
+      <button type="button" value="Agregar" class="btn btn-success mt-3" id="agregar">Agregar</button>
+    </div>
+    <table class="tabla_semesters" style="width: 100%;" id="example">
       <thead>
         <tr>
           <th>N_Lista</th>
@@ -112,7 +122,7 @@
 
   </section>
   <section class="main">
-    <div class="contenedor">
+    <!--<div class="contenedor">
       <header>
         <h1>Tabla de Usuarios</h1>
         <div>
@@ -137,7 +147,7 @@
         <div class="error_box" id="error_box">
           <p>Se ha producido un error.</p>
         </div>
-        <table class="tabla" style="width: 100%;">
+        <table class="tabla" style="width: 100%;" id="example">
           <thead>
             <tr>
               <th>Semestre</th>
@@ -159,7 +169,7 @@
         </table>
         <div class="loader" id="loader"></div>
       </main>
-    </div>
+    </div>-->
     <!-- <script src="js/ajax.js"></script> -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <!-- <script type="text/javascript" src="../javaScript/javaSc.js"></script> -->

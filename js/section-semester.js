@@ -132,3 +132,80 @@ async function traerDatos(num) {
 
     // console.log(ruta)
 }
+
+
+var boton = document.getElementById('agregar');
+var example = document.getElementById('example');
+boton.addEventListener("click", agregar);
+
+var cant = 0;
+var data = []
+
+function agregar() {
+    var final;
+    var nlista = parseInt(document.querySelector('#nlista').value);
+    var nombres = document.querySelector('#nombres').value;
+    var semestre = parseInt(document.querySelector('#semestre').value);
+    var nota1 = parseFloat(document.querySelector('#nota1').value);
+    var nota2 = parseFloat(document.querySelector('#nota2').value);
+    var nota3 = parseFloat(document.querySelector('#nota3').value);
+    var notafinal = parseFloat(nota1 + nota2 + nota3);
+    var asistencia = parseFloat(document.querySelector('#asistencia').value);
+
+    if(notafinal >= 0 && notafinal<=29){
+        final = 'Reprobado';
+    }else if(notafinal >= 0 && notafinal <=29){
+        final = 'Reprobado';
+    }else if((notafinal >=30 && notafinal <=42) && asistencia<70){
+        final = 'Suspenso';
+    }else if((notafinal >=30 && notafinal <=42) && asistencia>=70){
+        final = 'Suspenso';
+    }else if((notafinal > 42 && notafinal <=54) && asistencia<70){
+        final = 'Reprobado por asistencia';
+    }else if((notafinal > 42 && notafinal <=54) && asistencia>=70){
+        final = 'Aprobado';
+    }else if((notafinal >=55 && notafinal<=60) && asistencia<70){
+        final = 'Reprobado por asistencia';
+    }else if((notafinal >=55 && notafinal <=60) && asis>=70){
+        final = 'Exonerado';
+    }
+
+    data.push({
+        "nlista": nlista,
+        "nombres": nombres,
+        "semestre":semestre,
+        "nota1": nota1,
+        "nota2": nota2,
+        "nota3": nota3,
+        "notalfinal": notafinal,
+        "asistencia": asistencia,
+        "resultado": final
+    })
+
+    var item0 = "row" + cant;
+    var fila0 = '<tr item=' + item0 + '><td>' + nlista + '</td><td>' + nombres + '</td><td>' + semestre +
+        '</td><td>' + nota1 +
+        '</td><td>' + nota2 +
+        '</td><td>' + nota3 +
+        '</td><td>' + notafinal +
+        '</td><td>' + asistencia +
+        '%</td><td>' + final +
+        '</td></tr>';
+
+    //agregar fila a la tabla 1
+    $("#example").append(fila0);
+    $("#nlista").val('');
+    $("#nombres").val('');
+    $("#semestre").val('');
+    $("#nota1").val('');
+    $("#nota2").val('');
+    $("#nota3").val('');
+    $("#notafinal").val('');
+    $("#asistencia").val('');
+    $("#final").val('');
+    $("#nombres").focus();
+
+    cant++;
+
+    console.log(JSON.stringify(data));
+}
