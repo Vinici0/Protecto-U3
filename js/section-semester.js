@@ -1,5 +1,14 @@
 // const semesters = [{ primero: [] }, { segundo: [] }, { tercero: [] }, { cuarto: [] }, { quinto: [] }, { sexto: [] }, { seption: ["AplicaionesDistribuidas.json", "DiseñoEvaluacionProyectos-TI.json", "MineriaDatos.json", "ProgramacionAvanzada.json", "SeguridadInformatica.json"] }, { octavo: ["ArquitecturaSoftware.json", "GestionEmprendimiento.json", "GestionSeguridadInformatica.json", "TecnologiasEmergencia.json", "Profesionalizate.json"] }];
-const semesters = [[], [], [], [], [], [], ["ProgramacionAvanzada.json", "MineriaDatos.json", "SeguridadInformatica.json", "DiseñoEvaluacionProyectos-TI.json", "AplicacionesDistribuidas.json"], ["GestionSeguridadInformatica.json", "ArquitecturaSoftware.json", "GestionEmprendimiento.json", "TecnologiasEmergencia.json", "Profesionalizante.json"]];
+const semesters = [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    ["ProgramacionAvanzada.json", "MineriaDatos.json", "SeguridadInformatica.json", "DiseñoEvaluacionProyectos-TI.json", "AplicacionesDistribuidas.json"],
+    ["GestionSeguridadInformatica.json", "ArquitecturaSoftware.json", "GestionEmprendimiento.json", "TecnologiasEmergencia.json", "Profesionalizante.json"]
+];
 const countSemesters = ["primero", "segundo", "tercero", "cuarto", "quinto", "sexto", "septimo", "octavo"];
 const btns = document.querySelectorAll('.btnS');
 const options = document.querySelectorAll('#op');
@@ -14,7 +23,9 @@ btns.forEach(function (btn, index) {
 });
 
 async function obtenerDatos(index) {
-    const response = await fetch("http://127.0.0.1:5500/Json/semesters-validos.json", { credentials: 'same-origin' });
+    const response = await fetch("http://127.0.0.1:5500/Json/semesters-validos.json", {
+        credentials: 'same-origin'
+    });
     const json = await response.json();
 
     options.forEach(function (dato, i) {
@@ -41,12 +52,14 @@ async function traerDatos(num) {
     let valor = document.getElementById("materias-option").value;
     let ruta = "http://127.0.0.1:5500/Json/";
     const rutaPadre = ruta;
-    let position = '', totalEstudiantes = 0;
+    let position = '',
+        totalEstudiantes = 0;
     cantidadEstudent.innerHTML = totalEstudiantes;
     let rutaMateria = rutaPadre + 'semesters-validos.json';
     let res = document.querySelector('#muestra_semesters');
     res.innerHTML = ''; // Importante para empezar una nueva consulta
-
+    let final = '';
+    let promedio = 0;
     for (i = 0; i < semesters.length; i++) {
         if (i === num) {
             const allSemester = countSemesters[i];
@@ -58,13 +71,16 @@ async function traerDatos(num) {
             ruta = ruta.concat(semesters[num][valor]);
             // console.log(semesters[num][valor]);
             console.log(ruta);
-            const response = await fetch(ruta, { credentials: 'same-origin' });
+            const response = await fetch(ruta, {
+                credentials: 'same-origin'
+            });
             const datos = await response.json();
             console.log(datos)
 
             for (let data of datos) {
                 // console.log(data)
                 // Agregación de los datos
+
                 res.innerHTML += `<tr>
                 <td>${data.nlista}</td>
                 <td>${data.nombres}</td>
@@ -72,16 +88,34 @@ async function traerDatos(num) {
                 <td>${data.nota1}</td>
                 <td>${data.nota2}</td>
                 <td>${data.nota3}</td>
-                <td>${data.asis}/100</td>
-                <td> Calcular Promedio </td>
-                <td> Calcular Resultados</td>
+                <td>${promedio=data.nota1 + data.nota2 + data.nota3}</td>
+                <td>${data.asis}%</td>
+                <td>${final}</td>
                 </tr>`;
+
+                if ((promedio >= 0 && promedio <= 29) && data.asis < 70){
+                    final = 'Reprobado';
+                } else if ((promedio >= 0 && promedio <= 29) && data.asis >= 70){
+                    final = 'Reprobado';
+                } else if ((promedio >= 30 && promedio <= 42) && data.asis < 70) {
+                    final = 'Suspenso';
+                } else if ((promedio >= 30 && promedio <= 42) && data.asis >= 70) {
+                    final = 'Suspenso';
+                } else if ((promedio > 42 && promedio <= 54) && data.asis < 70) {
+                    final = 'Reprobado por asistencia';
+                } else if ((promedio > 42 && promedio <= 54) && data.asis >= 70) {
+                    final = 'Aprobado';
+                } else if ((promedio >= 55 && promedio <= 60) && data.asis < 70) {
+                    final = 'Reprobado por asistencia';
+                } else if ((promedio >= 55 && promedio <= 60) && data.asis >= 70) {
+                    final = 'Exonerado';
+                }
+
             }
             ruta = rutaPadre;
-
-            // 
-
-            const allMaterias = await fetch(rutaMateria, { credentials: 'same-origin' });
+            const allMaterias = await fetch(rutaMateria, {
+                credentials: 'same-origin'
+            });
             const materias = await allMaterias.json();
             // console.log(materias[num].materia[valor]);
             position += `${countSemesters[i]}/${materias[num].materia[valor]}`;
@@ -89,7 +123,8 @@ async function traerDatos(num) {
             positionActual.innerHTML = position;
             cantidadEstudent.innerHTML = totalEstudiantes;
         }
+
     }
+
     // console.log(ruta)
 }
-
