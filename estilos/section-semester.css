@@ -38,6 +38,15 @@
     color: white;
 }
 
+#botonJson{
+    text-align: right;
+    
+}
+
+#json{
+    background: rgba(138, 31, 24, 0.89);
+}
+
 .materias-options {
     width: 100%;
     display: grid;

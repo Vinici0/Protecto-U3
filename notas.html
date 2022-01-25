@@ -80,7 +80,9 @@
         </select>
         <div>
           <button class="btnO active" id="btnOption">MOSTRAR</button>
+          
         </div>
+        
     </div>
     <div id="position-container">
       <h4">Usted se enceuntra en: <span id="posicion-actual"></span></h4>
@@ -88,7 +90,12 @@
     <div id="estudaintes-container">
       <h4">La materia cuenta con: <span id="cantidad-estudiantes"></span> estudiantes.</h4>
     </div>
-    <div id="formulario" class="form formulario">
+    <div id="botonJson">
+      <button class="btn btn-danger" id="json">Archivo JSON</button>
+      <br><br>  
+    </div>
+    
+    <div id="formulario" class="form formulario">  
       <input type="text" id="nlista" placeholder="N. lista">
       <input type="text" name="nombres" id="nombres" placeholder="Nombres">
       <input type="text" name="nombre" id="semestre" placeholder="Semestre" disabled>
@@ -97,6 +104,7 @@
       <input type="text" name="edad" id="nota3" placeholder="Nota 3">
       <input type="text" name="correo" id="asistencia" placeholder="Asistencia">
       <button type="button" value="Agregar" class="btn btn-success mt-3" id="agregar">Agregar</button>
+      
     </div>
     <table class="tabla_semesters" style="width: 100%;" id="example">
       <thead>
