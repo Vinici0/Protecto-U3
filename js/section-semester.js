@@ -1,11 +1,11 @@
 // const semesters = [{ primero: [] }, { segundo: [] }, { tercero: [] }, { cuarto: [] }, { quinto: [] }, { sexto: [] }, { seption: ["AplicaionesDistribuidas.json", "DiseñoEvaluacionProyectos-TI.json", "MineriaDatos.json", "ProgramacionAvanzada.json", "SeguridadInformatica.json"] }, { octavo: ["ArquitecturaSoftware.json", "GestionEmprendimiento.json", "GestionSeguridadInformatica.json", "TecnologiasEmergencia.json", "Profesionalizate.json"] }];
 const semesters = [
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
+    ["Algebralineal.json", "CalculoDiferencial.json", "CulturaAmbiental.json", "FundProgramacion.json", "Quimica.json"],
+    ["CalculaVectorial.json", "EDO.json", "ComputacionDigital.json", "POO.json", "ComputacionDigital.json"],
+    ["DESARROLLOSOFTWARE.json", "ESTADISTICA.json", "ESTRUCTURA.json", "METODOSNUMERICOS.json", "SISTEMASOPERATIVOS.json"],
+    ["ADMIN_MAN_SISTEMAS.json", "FUNDAMENTOS_SISTEMAS_WEB.json", "INTERFACES_MULTIMEDIA.json", "LIDERAZGO.json", "REDES_COMUNICACIONES.json"],
+    ["ASO.json", "ATW.json", "GestionBDD.json", "IW.json", "RealidadNa.json"],
+    ["DesarrolloWeb.json", "Inteligencia_Artificial.json", "LecturayEscritura.json", "ModeladodeDatos.json", "ProgramacionIntegrativa.json"],
     ["ProgramacionAvanzada.json", "MineriaDatos.json", "SeguridadInformatica.json", "DiseñoEvaluacionProyectos-TI.json", "AplicacionesDistribuidas.json"],
     ["GestionSeguridadInformatica.json", "ArquitecturaSoftware.json", "GestionEmprendimiento.json", "TecnologiasEmergencia.json", "Profesionalizante.json"]
 ];
@@ -23,7 +23,7 @@ btns.forEach(function (btn, index) {
 });
 
 async function obtenerDatos(index) {
-    const response = await fetch("http://127.0.0.1:5500/Json/semesters-validos.json", {
+    const response = await fetch("http://127.0.0.1:5501/Json/semesters-validos.json", {
         credentials: 'same-origin'
     });
     const json = await response.json();
@@ -50,7 +50,7 @@ btnOption.addEventListener('click', function () {
 async function traerDatos(num) {
     console.log("TODO FUNCIONA");
     let valor = document.getElementById("materias-option").value;
-    let ruta = "http://127.0.0.1:5500/Json/";
+    let ruta = "http://127.0.0.1:5501/Json/";
     const rutaPadre = ruta;
     let position = '',
         totalEstudiantes = 0;
@@ -82,7 +82,7 @@ async function traerDatos(num) {
                 // console.log(data)
                 // Agregación de los datos
                 promedio=data.nota1 + data.nota2 + data.nota3;
-                
+
                 if ((promedio >= 0 && promedio <= 29) && data.asis < 70){
                     final = 'Reprobado';
                 } else if ((promedio >= 0 && promedio <= 29) && data.asis >= 70){
