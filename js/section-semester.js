@@ -1,7 +1,7 @@
 // const semesters = [{ primero: [] }, { segundo: [] }, { tercero: [] }, { cuarto: [] }, { quinto: [] }, { sexto: [] }, { seption: ["AplicaionesDistribuidas.json", "DiseñoEvaluacionProyectos-TI.json", "MineriaDatos.json", "ProgramacionAvanzada.json", "SeguridadInformatica.json"] }, { octavo: ["ArquitecturaSoftware.json", "GestionEmprendimiento.json", "GestionSeguridadInformatica.json", "TecnologiasEmergencia.json", "Profesionalizate.json"] }];
 const semesters = [
     ["Algebralineal.json", "CalculoDiferencial.json", "CulturaAmbiental.json", "FundProgramacion.json", "Quimica.json"],
-    ["CalculaVectorial.json", "EDO.json", "ComputacionDigital.json", "POO.json", "ComputacionDigital.json"],
+    ["CalculoVectorial.json", "EDO.json", "ComputacionDigital.json", "POO.json", "ComputacionDigital.json"],
     ["DESARROLLOSOFTWARE.json", "ESTADISTICA.json", "ESTRUCTURA.json", "METODOSNUMERICOS.json", "SISTEMASOPERATIVOS.json"],
     ["ADMIN_MAN_SISTEMAS.json", "FUNDAMENTOS_SISTEMAS_WEB.json", "INTERFACES_MULTIMEDIA.json", "LIDERAZGO.json", "REDES_COMUNICACIONES.json"],
     ["ASO.json", "ATW.json", "GestionBDD.json", "IW.json", "RealidadNa.json"],
@@ -58,8 +58,8 @@ async function traerDatos(num) {
     let rutaMateria = rutaPadre + 'semesters-validos.json';
     let res = document.querySelector('#muestra_semesters');
     res.innerHTML = ''; // Importante para empezar una nueva consulta
-
     let promedio = 0;
+    let color = document.getElementById('color');
     for (i = 0; i < semesters.length; i++) {
         if (i === num) {
             let final = '';
@@ -77,29 +77,37 @@ async function traerDatos(num) {
             });
             const datos = await response.json();
             console.log(datos)
-
+            
             for (let data of datos) {
                 // console.log(data)
                 // Agregación de los datos
                 promedio = data.nota1 + data.nota2 + data.nota3;
+               
+      
+               
+                // console.log(resultado);
+               
 
                 if ((promedio >= 0 && promedio <= 29) && data.asis < 70) {
-                    final = 'Reprobado';
+                    final = '<span style="color: #BF0B0B"> <b>Reprobado </b></span>';
                 } else if ((promedio >= 0 && promedio <= 29) && data.asis >= 70) {
-                    final = 'Reprobado';
+                    final = '<span style="color: #BF0B0B"> <b>Reprobado </b></span>';
                 } else if ((promedio >= 30 && promedio <= 42) && data.asis < 70) {
-                    final = 'Suspenso';
+                    final = '<span style="color: #FF8D34"> <b>Suspenso </b></span>';
                 } else if ((promedio >= 30 && promedio <= 42) && data.asis >= 70) {
-                    final = 'Suspenso';
+                    final = '<span style="color: #FF8D34"> <b>Suspenso </b></span>';
                 } else if ((promedio > 42 && promedio <= 54) && data.asis < 70) {
-                    final = 'Reprobado por asistencia';
+                    final = '<span style="color: #ECC226"> <b>Reprobado por asistencia</b></span>';
                 } else if ((promedio > 42 && promedio <= 54) && data.asis >= 70) {
-                    final = 'Aprobado';
+                    final = '<span style="color: #14B906"><b> Aprobado</b></span>';
                 } else if ((promedio >= 55 && promedio <= 60) && data.asis < 70) {
-                    final = 'Reprobado por asistencia';
+                    final = '<span style="color: #ECC226"> <b>Reprobado por asistencia</b></span>';
                 } else if ((promedio >= 55 && promedio <= 60) && data.asis >= 70) {
-                    final = 'Exonerado';
+                    final = '<span style="color: #1CB1DD"><b>Exonerado</b></span>';
                 }
+
+                
+                 
 
                 res.innerHTML += `<tr>
                 <td>${data.nlista}</td>
@@ -111,8 +119,7 @@ async function traerDatos(num) {
                 <td>${promedio}</td>
                 <td>${data.asis}%</td>
                 <td>${final}</td>
-                </tr>`;
-
+                </tr>` ;
 
 
             }
@@ -152,61 +159,75 @@ function agregar() {
     var nota3 = parseFloat(document.querySelector('#nota3').value);
     var notafinal = parseFloat(nota1 + nota2 + nota3);
     var asistencia = parseFloat(document.querySelector('#asistencia').value);
+    
 
     if (notafinal >= 0 && notafinal <= 29) {
-        final = 'Reprobado';
+        final = '<span style="color: #BF0B0B"> <b>Reprobado </b></span>';
     } else if (notafinal >= 0 && notafinal <= 29) {
-        final = 'Reprobado';
+        final = '<span style="color: #BF0B0B"> <b>Reprobado </b></span>';
     } else if ((notafinal >= 30 && notafinal <= 42) && asistencia < 70) {
-        final = 'Suspenso';
+        final = '<span style="color: #FF8D34"> <b>Suspenso </b></span>';
     } else if ((notafinal >= 30 && notafinal <= 42) && asistencia >= 70) {
-        final = 'Suspenso';
+        final = '<span style="color: #FF8D34"> <b>Suspenso </b></span>';
     } else if ((notafinal > 42 && notafinal <= 54) && asistencia < 70) {
-        final = 'Reprobado por asistencia';
+        final = '<span style="color: #ECC226"> <b>Reprobado por asistencia</b></span>';
     } else if ((notafinal > 42 && notafinal <= 54) && asistencia >= 70) {
-        final = 'Aprobado';
+        final = '<span style="color: #14B906"><b> Aprobado</b></span>';
     } else if ((notafinal >= 55 && notafinal <= 60) && asistencia < 70) {
-        final = 'Reprobado por asistencia';
+        final = '<span style="color: #ECC226"> <b>Reprobado por asistencia</b></span>';
     } else if ((notafinal >= 55 && notafinal <= 60) && asis >= 70) {
         final = 'Exonerado';
     }
 
-    data.push({
-        "nlista": nlista,
-        "nombres": nombres,
-        "semestre": semestre,
-        "nota1": nota1,
-        "nota2": nota2,
-        "nota3": nota3,
-        "notalfinal": notafinal,
-        "asistencia": asistencia,
-        "resultado": final
-    })
+    
+    
 
-    var item0 = "row" + cant;
-    var fila0 = '<tr item=' + item0 + '><td>' + nlista + '</td><td>' + nombres + '</td><td>' + semestre +
-        '</td><td>' + nota1 +
-        '</td><td>' + nota2 +
-        '</td><td>' + nota3 +
-        '</td><td>' + notafinal +
-        '</td><td>' + asistencia +
-        '%</td><td>' + final +
-        '</td></tr>';
+    if(nota1<21 && nota2 < 21 && nota3 < 21){
+        data.push({
+            "nlista": nlista,
+            "nombres": nombres,
+            "semestre":semestre,
+            "nota1": nota1,
+            "nota2": nota2,
+            "nota3": nota3,
+            "notalfinal": notafinal,
+            "asistencia": asistencia,
+            "resultado": final
+        })
 
-    //agregar fila a la tabla 1
-    $("#example").append(fila0);
-    $("#nlista").val('');
-    $("#nombres").val('');
-    $("#semestre").val('');
-    $("#nota1").val('');
-    $("#nota2").val('');
-    $("#nota3").val('');
-    $("#notafinal").val('');
-    $("#asistencia").val('');
-    $("#final").val('');
-    $("#nombres").focus();
+        var item0 = "row" + cant;
 
-    cant++;
+        var fila0 = '<tr item=' + item0 + '><td>' + nlista + '</td><td>' + nombres + '</td><td>' + semestre +
+            '</td><td>' + nota1 +
+            '</td><td>' + nota2 +
+            '</td><td>' + nota3 +
+            '</td><td>' + notafinal +
+            '</td><td>' + asistencia +
+            '%</td><td id="color">' + final +
+            '</td></tr>';
+        
 
-    console.log(JSON.stringify(data));
+        //agregar fila a la tabla 1
+        $("#example").append(fila0);
+        $("#nlista").val('');
+        $("#nombres").val('');
+        $("#semestre").val('');
+        $("#nota1").val('');
+        $("#nota2").val('');
+        $("#nota3").val('');
+        $("#notafinal").val('');
+        $("#asistencia").val('');
+        $("#final").val('');
+        $("#nombres").focus();
+    
+        cant++;
+    
+        console.log(JSON.stringify(data));
+        document.getElementById('datos-mal').innerHTML = '';
+
+    }else{
+        document.getElementById('datos-mal').innerHTML = 'Datos mal Ingresados';
+        document.getElementById('datos-mal').style.color = 'red';
+   
+    }
 }
