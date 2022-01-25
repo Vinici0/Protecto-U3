@@ -58,10 +58,11 @@ async function traerDatos(num) {
     let rutaMateria = rutaPadre + 'semesters-validos.json';
     let res = document.querySelector('#muestra_semesters');
     res.innerHTML = ''; // Importante para empezar una nueva consulta
-    let final = '';
+    
     let promedio = 0;
     for (i = 0; i < semesters.length; i++) {
         if (i === num) {
+            let final = '';
             const allSemester = countSemesters[i];
             // const context = semesters[i];
             // console.log(countSemesters[i])
@@ -80,19 +81,8 @@ async function traerDatos(num) {
             for (let data of datos) {
                 // console.log(data)
                 // Agregación de los datos
-
-                res.innerHTML += `<tr>
-                <td>${data.nlista}</td>
-                <td>${data.nombres}</td>
-                <td>${data.semestre}</td>
-                <td>${data.nota1}</td>
-                <td>${data.nota2}</td>
-                <td>${data.nota3}</td>
-                <td>${promedio=data.nota1 + data.nota2 + data.nota3}</td>
-                <td>${data.asis}%</td>
-                <td>${final}</td>
-                </tr>`;
-
+                promedio=data.nota1 + data.nota2 + data.nota3;
+                
                 if ((promedio >= 0 && promedio <= 29) && data.asis < 70){
                     final = 'Reprobado';
                 } else if ((promedio >= 0 && promedio <= 29) && data.asis >= 70){
@@ -110,6 +100,20 @@ async function traerDatos(num) {
                 } else if ((promedio >= 55 && promedio <= 60) && data.asis >= 70) {
                     final = 'Exonerado';
                 }
+
+                res.innerHTML += `<tr>
+                <td>${data.nlista}</td>
+                <td>${data.nombres}</td>
+                <td>${data.semestre}</td>
+                <td>${data.nota1}</td>
+                <td>${data.nota2}</td>
+                <td>${data.nota3}</td>
+                <td>${promedio}</td>
+                <td>${data.asis}%</td>
+                <td>${final}</td>
+                </tr>`;
+
+                
 
             }
             ruta = rutaPadre;
