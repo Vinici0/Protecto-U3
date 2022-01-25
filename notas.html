@@ -258,6 +258,31 @@
 <script type="text/javascript" src="js/section-semester.js"></script>
 
 <!-- <script type="text/javascript" src="js/JscaSc2.js"></script> -->
+<script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+
+<script type="text/javascript" src="js/jspdf.min.js"></script>
+
+<script type="text/javascript" src="js/jspdf.plugin.autotable.min.js"></script>
+
+<script type="text/javascript" src="js/exportJSON.js"></script>
+
+<script type="text/javascript">
+  
+  $("#json").on("click",function(){
+    $("#example").tableHTMLExport({
+      type:'json',
+      filename:'reporte.json'
+    });
+  });
+
+  $("#pdf").on("click",function(){
+    $("#example").tableHTMLExport({
+      type:'pdf',
+      filename:'reporte.pdf'
+    });
+  });
+
+</script>
 
 <script src="JS/index.js"></script>
 
