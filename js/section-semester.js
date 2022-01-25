@@ -58,7 +58,7 @@ async function traerDatos(num) {
     let rutaMateria = rutaPadre + 'semesters-validos.json';
     let res = document.querySelector('#muestra_semesters');
     res.innerHTML = ''; // Importante para empezar una nueva consulta
-    
+
     let promedio = 0;
     for (i = 0; i < semesters.length; i++) {
         if (i === num) {
@@ -81,11 +81,11 @@ async function traerDatos(num) {
             for (let data of datos) {
                 // console.log(data)
                 // Agregación de los datos
-                promedio=data.nota1 + data.nota2 + data.nota3;
+                promedio = data.nota1 + data.nota2 + data.nota3;
 
-                if ((promedio >= 0 && promedio <= 29) && data.asis < 70){
+                if ((promedio >= 0 && promedio <= 29) && data.asis < 70) {
                     final = 'Reprobado';
-                } else if ((promedio >= 0 && promedio <= 29) && data.asis >= 70){
+                } else if ((promedio >= 0 && promedio <= 29) && data.asis >= 70) {
                     final = 'Reprobado';
                 } else if ((promedio >= 30 && promedio <= 42) && data.asis < 70) {
                     final = 'Suspenso';
@@ -113,7 +113,7 @@ async function traerDatos(num) {
                 <td>${final}</td>
                 </tr>`;
 
-                
+
 
             }
             ruta = rutaPadre;
@@ -145,35 +145,36 @@ function agregar() {
     var final;
     var nlista = parseInt(document.querySelector('#nlista').value);
     var nombres = document.querySelector('#nombres').value;
-    var semestre = parseInt(document.querySelector('#semestre').value);
+    var semestre = numSemestre + 1;
+    // var semestre = parseInt(document.querySelector('#semestre').value);
     var nota1 = parseFloat(document.querySelector('#nota1').value);
     var nota2 = parseFloat(document.querySelector('#nota2').value);
     var nota3 = parseFloat(document.querySelector('#nota3').value);
     var notafinal = parseFloat(nota1 + nota2 + nota3);
     var asistencia = parseFloat(document.querySelector('#asistencia').value);
 
-    if(notafinal >= 0 && notafinal<=29){
+    if (notafinal >= 0 && notafinal <= 29) {
         final = 'Reprobado';
-    }else if(notafinal >= 0 && notafinal <=29){
+    } else if (notafinal >= 0 && notafinal <= 29) {
         final = 'Reprobado';
-    }else if((notafinal >=30 && notafinal <=42) && asistencia<70){
+    } else if ((notafinal >= 30 && notafinal <= 42) && asistencia < 70) {
         final = 'Suspenso';
-    }else if((notafinal >=30 && notafinal <=42) && asistencia>=70){
+    } else if ((notafinal >= 30 && notafinal <= 42) && asistencia >= 70) {
         final = 'Suspenso';
-    }else if((notafinal > 42 && notafinal <=54) && asistencia<70){
+    } else if ((notafinal > 42 && notafinal <= 54) && asistencia < 70) {
         final = 'Reprobado por asistencia';
-    }else if((notafinal > 42 && notafinal <=54) && asistencia>=70){
+    } else if ((notafinal > 42 && notafinal <= 54) && asistencia >= 70) {
         final = 'Aprobado';
-    }else if((notafinal >=55 && notafinal<=60) && asistencia<70){
+    } else if ((notafinal >= 55 && notafinal <= 60) && asistencia < 70) {
         final = 'Reprobado por asistencia';
-    }else if((notafinal >=55 && notafinal <=60) && asis>=70){
+    } else if ((notafinal >= 55 && notafinal <= 60) && asis >= 70) {
         final = 'Exonerado';
     }
 
     data.push({
         "nlista": nlista,
         "nombres": nombres,
-        "semestre":semestre,
+        "semestre": semestre,
         "nota1": nota1,
         "nota2": nota2,
         "nota3": nota3,

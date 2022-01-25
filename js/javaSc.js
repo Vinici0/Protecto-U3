@@ -88,23 +88,23 @@ function traerDatos (){
 function funBoton(){
     promedio = 0;
     res = document.querySelector('#muestra');
+    nlista = document.getElementById("nlista").value;
+    nombres = document.getElementById("nombres").value;
     semestre = document.getElementById("semestre").value;
-    materia = document.getElementById("materia").value;
-    id = document.getElementById("id").value;
-    nombre = document.getElementById("nombre").value;
     nota1 = document.getElementById("nota1").value;
     nota2 = document.getElementById("nota2").value;
     nota3 = document.getElementById("nota3").value;
+    // notaFinal = document.getElementById("notaFinal").value;
     asistencia = document.getElementById("asistencia").value;
+    resultado = document.getElementById("resultado").value;
     res.innerHTML += `<tr>
-                <td>${semestre}</td> 
-                <td>${materia}</td>  
-                <td>${id}</td>
-                <td>${nombre}</td>  
+                <td>${nlista}</td> 
+                <td>${nombres}</td>  
+                <td>${semestre}</td>
                 <td>${nota1}</td>
                 <td>${nota2}</td>
                 <td>${nota3}</td>
-                <td >${promedio = Number(nota1)+Number(nota3)+Number(nota3)}</td>
+                <td >${ promedio = Number(nota1)+Number(nota2)+Number(nota3)}</td>
                 <td>${asis = asistencia}</td>
                 <td>Aprueba</td>
                 </tr>`;
@@ -123,4 +123,3 @@ $(document).ready(function () {
         $('.img1').trigger(e.type);
     })
 })
-    
